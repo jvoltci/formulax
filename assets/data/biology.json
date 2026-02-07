@@ -1,0 +1,2406 @@
+[
+  {
+    "id": "bio_mol_dna_struct",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "DNA Double Helix",
+    "description": "The B-DNA structure showing major and minor grooves. Backbone is sugar-phosphate. Base pairs: A=T, G-C (Triple Bond). Pitch is 3.4nm.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='dna_grad' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' style='stop-color:#10B981;stop-opacity:1' /><stop offset='100%' style='stop-color:#34D399;stop-opacity:1' /></linearGradient></defs><path d='M60,10 Q100,60 60,110 T60,210 T60,310' stroke='url(#dna_grad)' stroke-width='8' fill='none'/><path d='M140,10 Q100,60 140,110 T140,210 T140,310' stroke='#059669' stroke-width='8' fill='none'/><line x1='60' y1='30' x2='140' y2='30' stroke='#6EE7B7' stroke-width='4' /><line x1='80' y1='85' x2='120' y2='85' stroke='#6EE7B7' stroke-width='4' /><line x1='60' y1='130' x2='140' y2='130' stroke='#6EE7B7' stroke-width='4' /><line x1='80' y1='185' x2='120' y2='185' stroke='#6EE7B7' stroke-width='4' /><line x1='60' y1='230' x2='140' y2='230' stroke='#6EE7B7' stroke-width='4' /><text x='10' y='30' font-family='Arial' font-size='12' fill='#333'>5'</text><text x='180' y='30' font-family='Arial' font-size='12' fill='#333'>3'</text></svg>"
+  },
+  {
+    "id": "bio_cell_mito",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "title": "Mitochondria Structure",
+    "description": "Double-membrane bound organelle. Inner membrane folds into Cristae to increase surface area for ATP production (Oxidative Phosphorylation).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><ellipse cx='150' cy='75' rx='140' ry='65' fill='#D1FAE5' stroke='#059669' stroke-width='3'/><path d='M30,75 Q50,40 70,75 T110,75 T150,75 T190,75 T230,75 T270,75' fill='none' stroke='#10B981' stroke-width='4' stroke-dasharray='5,5'/><text x='140' y='100' font-family='Arial' font-size='10' fill='#065F46'>Matrix</text><text x='50' y='50' font-family='Arial' font-size='10' fill='#065F46'>Cristae</text><circle cx='80' cy='90' r='3' fill='#F59E0B' /><circle cx='120' cy='60' r='3' fill='#F59E0B' /><circle cx='200' cy='100' r='3' fill='#F59E0B' /><text x='240' y='120' font-family='Arial' font-size='10' fill='#F59E0B'>ATP Synthase</text></svg>"
+  },
+  {
+    "id": "bio_gen_central_dogma",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Central Dogma",
+    "description": "The flow of genetic information: DNA replication -> Transcription to mRNA -> Translation to Protein. Proposed by Francis Crick.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 350 100' xmlns='http://www.w3.org/2000/svg'><defs><marker id='arrow_cd' markerWidth='10' markerHeight='10' refX='0' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='#6B7280' /></marker></defs><rect x='10' y='30' width='80' height='40' rx='10' fill='#E0E7FF' stroke='#4F46E5' stroke-width='2'/><text x='50' y='55' text-anchor='middle' font-family='Arial' font-size='14' fill='#312E81'>DNA</text><rect x='135' y='30' width='80' height='40' rx='10' fill='#D1FAE5' stroke='#059669' stroke-width='2'/><text x='175' y='55' text-anchor='middle' font-family='Arial' font-size='14' fill='#064E3B'>RNA</text><rect x='260' y='30' width='80' height='40' rx='10' fill='#FEF3C7' stroke='#D97706' stroke-width='2'/><text x='300' y='55' text-anchor='middle' font-family='Arial' font-size='14' fill='#78350F'>Protein</text><line x1='90' y1='50' x2='125' y2='50' stroke='#6B7280' stroke-width='2' marker-end='url(#arrow_cd)' /><line x1='215' y1='50' x2='250' y2='50' stroke='#6B7280' stroke-width='2' marker-end='url(#arrow_cd)' /><text x='108' y='25' text-anchor='middle' font-size='10' fill='#6B7280'>Transcription</text><text x='233' y='25' text-anchor='middle' font-size='10' fill='#6B7280'>Translation</text><path d='M50,30 C20,10 80,10 50,30' fill='none' stroke='#4F46E5' stroke-width='2' marker-end='url(#arrow_cd)'/><text x='50' y='10' text-anchor='middle' font-size='9' fill='#4F46E5'>Replication</text></svg>"
+  },
+  {
+    "id": "bio_cell_cycle_pie",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Cell Cycle Phases",
+    "description": "Interphase occupies 95% of the duration (G1, S, G2). M-Phase (Mitosis) is the actual division phase.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='90' fill='#F3F4F6' /><path d='M100,100 L100,10 A90,90 0 0,1 190,100 z' fill='#93C5FD' /><text x='130' y='60' font-size='14' font-weight='bold' fill='#1E3A8A'>G1</text><path d='M100,100 L190,100 A90,90 0 0,1 100,190 z' fill='#FCA5A5' /><text x='130' y='140' font-size='14' font-weight='bold' fill='#7F1D1D'>S</text><path d='M100,100 L100,190 A90,90 0 0,1 30,160 z' fill='#A7F3D0' /><text x='70' y='160' font-size='14' font-weight='bold' fill='#064E3B'>G2</text><path d='M100,100 L30,160 A90,90 0 0,1 100,10 z' fill='#FDE68A' /><text x='60' y='80' font-size='14' font-weight='bold' fill='#92400E'>M</text></svg>"
+  },
+  {
+    "id": "bio_circ_heart",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Human Heart Flow",
+    "description": "Double circulation pathway: Right Atrium -> Right Ventricle -> Lungs (Pulmonary) -> Left Atrium -> Left Ventricle -> Body (Systemic).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100,180 C40,130 20,80 50,40 A30,30 0 0,1 100,60 A30,30 0 0,1 150,40 C180,80 160,130 100,180 Z' fill='#FEE2E2' stroke='#EF4444' stroke-width='2'/><line x1='100' y1='60' x2='100' y2='160' stroke='#EF4444' stroke-width='2'/><line x1='30' y1='90' x2='170' y2='90' stroke='#EF4444' stroke-width='2'/><text x='60' y='80' font-size='10' fill='#991B1B'>RA</text><text x='130' y='80' font-size='10' fill='#991B1B'>LA</text><text x='60' y='130' font-size='10' fill='#991B1B'>RV</text><text x='130' y='130' font-size='10' fill='#991B1B'>LV</text><path d='M40,50 L40,110' stroke='#3B82F6' stroke-width='2' stroke-dasharray='4,2'/><path d='M160,50 L160,110' stroke='#EF4444' stroke-width='2'/></svg>"
+  },
+  {
+    "id": "bio_exc_nephron",
+    "subject": "Biology",
+    "topic": "Excretory Products",
+    "title": "Nephron Structure",
+    "description": "Functional unit of kidney. Filtration (Glomerulus) -> Reabsorption (PCT) -> Concentration (Loop of Henle) -> Secretion (DCT) -> Collection.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='20' fill='none' stroke='#F59E0B' stroke-width='2'/><path d='M50,50 Q80,20 100,50' fill='none' stroke='#F59E0B' stroke-width='3'/><path d='M100,50 L100,120 Q120,140 140,120 L140,50' fill='none' stroke='#F59E0B' stroke-width='3'/><path d='M140,50 Q160,20 190,50' fill='none' stroke='#F59E0B' stroke-width='3'/><line x1='190' y1='30' x2='190' y2='140' stroke='#F59E0B' stroke-width='4'/><text x='10' y='20' font-size='10'>Glomerulus</text><text x='60' y='30' font-size='10'>PCT</text><text x='100' y='145' font-size='10'>Henle Loop</text><text x='160' y='30' font-size='10'>DCT</text></svg>"
+  },
+  {
+    "id": "bio_musc_sarcomere",
+    "subject": "Biology",
+    "topic": "Locomotion",
+    "title": "Sarcomere (Muscle)",
+    "description": "Contractile unit. Z-line to Z-line. A-band (Dark, Myosin+Actin), I-band (Light, Actin only), H-zone (Myosin only).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='10' x2='10' y2='90' stroke='#000' stroke-width='4'/><line x1='290' y1='10' x2='290' y2='90' stroke='#000' stroke-width='4'/><line x1='10' y1='30' x2='100' y2='30' stroke='#3B82F6' stroke-width='2'/><line x1='10' y1='70' x2='100' y2='70' stroke='#3B82F6' stroke-width='2'/><line x1='200' y1='30' x2='290' y2='30' stroke='#3B82F6' stroke-width='2'/><line x1='200' y1='70' x2='290' y2='70' stroke='#3B82F6' stroke-width='2'/><rect x='80' y='40' width='140' height='20' fill='#EF4444'/><text x='150' y='95' text-anchor='middle' font-size='10'>A-Band</text><text x='50' y='95' text-anchor='middle' font-size='10'>I-Band</text><text x='150' y='20' text-anchor='middle' font-size='10'>H-Zone</text></svg>"
+  },
+  {
+    "id": "bio_phot_calvin",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "Calvin Cycle (C3)",
+    "description": "1. Carboxylation (RuBP + CO2 -> 3-PGA). 2. Reduction (ATP+NADPH used). 3. Regeneration of RuBP (ATP used).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='80' fill='none' stroke='#10B981' stroke-width='2'/><text x='100' y='30' text-anchor='middle' font-size='12' fill='#065F46'>Carboxylation</text><text x='170' y='120' text-anchor='middle' font-size='12' fill='#065F46'>Reduction</text><text x='30' y='120' text-anchor='middle' font-size='12' fill='#065F46'>Regeneration</text><text x='100' y='60' text-anchor='middle' font-size='10'>RuBP + CO2</text><text x='140' y='150' text-anchor='middle' font-size='10'>Triose Phosphate</text><path d='M100,40 L160,100 L100,160 L40,100 Z' fill='none' stroke='#10B981' stroke-dasharray='4,4'/></svg>"
+  },
+  {
+    "id": "bio_neur_impulse",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Nerve Impulse",
+    "description": "Resting Potential (-70mV, Na+/K+ pump). Depolarization (Na+ influx). Repolarization (K+ efflux).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='80' x2='290' y2='80' stroke='#6B7280'/><line x1='30' y1='10' x2='30' y2='90' stroke='#6B7280'/><path d='M30,70 L80,70 L100,10 L120,90 L150,70 L280,70' fill='none' stroke='#8B5CF6' stroke-width='2'/><text x='40' y='65' font-size='10'>-70mV</text><text x='105' y='25' font-size='10'>+30mV</text><text x='100' y='98' font-size='10' text-anchor='middle'>Action Potential</text></svg>"
+  },
+  {
+    "id": "bio_resp_oxy",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "title": "Oxygen Dissociation Curve",
+    "description": "Sigmoid curve. Right Shift (Bohr Effect): High pCO2, High H+, High Temp (Tissues). Left Shift: Low pCO2, Low Temp (Alveoli).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='180' y2='130' stroke='#000'/><line x1='20' y1='10' x2='20' y2='130' stroke='#000'/><path d='M20,130 Q60,130 80,80 T180,20' fill='none' stroke='#EF4444' stroke-width='2'/><text x='100' y='145' font-size='10'>pO2 (mmHg)</text><text x='5' y='70' font-size='10' transform='rotate(-90 5,70)'>% Saturation</text></svg>"
+  },
+  {
+    "id": "bio_rep_flower",
+    "subject": "Biology",
+    "topic": "Sexual Repro. in Plants",
+    "title": "Double Fertilization",
+    "description": "1. Syngamy: Male gamete (n) + Egg (n) -> Zygote (2n). 2. Triple Fusion: Male gamete (n) + Polar nuclei (2n) -> PEN (3n).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Syngamy} \\to \\text{Zygote (2n)} \\\\ \\text{Triple Fusion} \\to \\text{Endosperm (3n)}"
+  },
+  {
+    "id": "bio_gen_lac",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "title": "Lac Operon",
+    "description": "Inducible operon. In absence of lactose, Repressor binds Operator. In presence, Inducer (Lactose) binds Repressor, allowing Transcription.",
+    "visual_type": "latex",
+    "visual_data": "i \\xrightarrow{\\text{Repressor}} O \\xrightarrow{\\text{Blocked}} z,y,a \\\\ \\text{Lactose} + \\text{Repressor} \\to \\text{Inactive}"
+  },
+  {
+    "id": "bio_biotech_pcr",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "PCR Cycles",
+    "description": "Polymerase Chain Reaction. 1. Denaturation (94C). 2. Annealing (54C). 3. Extension (72C, Taq Polymerase). Amplifies DNA 1 billion times in 30 cycles.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='30' width='80' height='40' rx='5' fill='#FECACA' stroke='#EF4444'/><text x='50' y='55' text-anchor='middle' font-size='10'>Denaturation</text><rect x='110' y='30' width='80' height='40' rx='5' fill='#BFDBFE' stroke='#3B82F6'/><text x='150' y='55' text-anchor='middle' font-size='10'>Annealing</text><rect x='210' y='30' width='80' height='40' rx='5' fill='#A7F3D0' stroke='#10B981'/><text x='250' y='55' text-anchor='middle' font-size='10'>Extension</text><path d='M90,50 L110,50' stroke='#000'/><path d='M190,50 L210,50' stroke='#000'/></svg>"
+  },
+  {
+    "id": "bio_div_class",
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "title": "Five Kingdom System",
+    "description": "R.H. Whittaker (1969). Monera (Prokaryote), Protista (Unicellular Eukaryote), Fungi (Chitin wall), Plantae (Cellulose), Animalia (No wall).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Monera} \\to \\text{Protista} \\to \\text{Fungi, Plantae, Animalia}"
+  },
+  {
+    "id": "bio_morph_root",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Root Modifications",
+    "description": "Storage (Carrot - Conical, Radish - Fusiform). Support (Banyan - Prop, Maize - Stilt). Respiration (Rhizophora - Pneumatophores).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Fusiform} \\to \\text{Radish} \\\\ \\text{Napiform} \\to \\text{Turnip} \\\\ \\text{Pneumatophore} \\to \\text{Oxygen}"
+  },
+  {
+    "id": "bio_cell_ribosome",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Ribosome Subunits",
+    "description": "Prokaryotes (70S = 50S + 30S). Eukaryotes (80S = 60S + 40S). 'S' is Svedberg Unit (Sedimentation coefficient).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><ellipse cx='100' cy='100' rx='60' ry='30' fill='#E5E7EB' stroke='#9CA3AF'/><ellipse cx='100' cy='60' rx='40' ry='25' fill='#D1D5DB' stroke='#6B7280'/><text x='100' y='70' text-anchor='middle' font-size='12'>Large</text><text x='100' y='110' text-anchor='middle' font-size='12'>Small</text></svg>"
+  },
+  {
+    "id": "bio_rep_art",
+    "subject": "Biology",
+    "topic": "Reproductive Health",
+    "title": "ART Techniques",
+    "description": "Assisted Reproductive Technologies. IVF (In Vitro), ET (Embryo Transfer).",
+    "visual_type": "latex",
+    "visual_data": "\\text{ZIFT} \\to \\text{Zygote (Fallopian)} \\\\ \\text{IUT} \\to \\text{Embryo (Uterus)} \\\\ \\text{GIFT} \\to \\text{Gamete (Fallopian)}"
+  },
+  {
+    "id": "bio_evo_homologous",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Homologous Organs",
+    "description": "Same origin, different function. Evidence of Divergent Evolution.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Forelimbs: } \\text{Whale, Bat, Cheetah, Human} \\\\ \\text{Thorns (Bougainvillea) & Tendrils (Cucurbita)}"
+  },
+  {
+    "id": "bio_gen_linkage",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "title": "Linkage (Morgan)",
+    "description": "Physical association of genes on same chromosome. Inversely proportional to distance.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Linkage} \\propto \\frac{1}{\\text{Distance between genes}} \\\\ 1\\% \\text{ Recomb.} = 1 \\text{ cM (Map Unit)}"
+  },
+  {
+    "id": "bio_health_antibody",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Antibody Structure (IgG)",
+    "description": "Y-shaped protein. H2L2 (2 Heavy chains, 2 Light chains). Disulfide bonds connect chains. Antigen binding site at tips (Variable region).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M80,50 L80,180' stroke='#3B82F6' stroke-width='6' fill='none' /><path d='M120,50 L120,180' stroke='#3B82F6' stroke-width='6' fill='none' /><path d='M80,100 L120,100' stroke='#EF4444' stroke-width='3' /> <path d='M80,100 L40,40' stroke='#3B82F6' stroke-width='6' /><path d='M120,100 L160,40' stroke='#3B82F6' stroke-width='6' /><path d='M50,40 L90,100' stroke='#10B981' stroke-width='4' /><path d='M150,40 L110,100' stroke='#10B981' stroke-width='4' /><text x='20' y='30' font-size='10' fill='#10B981'>Light</text><text x='170' y='180' font-size='10' fill='#3B82F6'>Heavy</text><text x='100' y='190' font-size='10' text-anchor='middle'>Fc Region</text></svg>"
+  },
+  {
+    "id": "bio_biotech_plasmid",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "pBR322 Plasmid Vector",
+    "description": "E. coli cloning vector. ori (Origin), rop (Replication protein), ampR (Ampicillin resistance), tetR (Tetracycline resistance). Restriction sites: EcoRI, BamHI.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='80' fill='none' stroke='#6B7280' stroke-width='4'/><path d='M100,20 A80,80 0 0,1 180,100' fill='none' stroke='#EF4444' stroke-width='8'/><text x='150' y='50' font-size='12' fill='#EF4444'>ampR</text><path d='M180,100 A80,80 0 0,1 100,180' fill='none' stroke='#3B82F6' stroke-width='8'/><text x='150' y='150' font-size='12' fill='#3B82F6'>tetR</text><line x1='100' y1='20' x2='100' y2='5' stroke='#000'/><text x='100' y='15' text-anchor='middle' font-size='10'>EcoRI</text><line x1='180' y1='100' x2='195' y2='100' stroke='#000'/><text x='200' y='105' font-size='10'>BamHI</text><text x='60' y='100' text-anchor='middle' font-size='12' fill='#10B981'>ori</text></svg>"
+  },
+  {
+    "id": "bio_biotech_ecori",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Restriction Site (EcoRI)",
+    "description": "Palindromic sequence cut by EcoRI enzyme. Produces sticky ends.",
+    "visual_type": "latex",
+    "visual_data": "5' - G \\downarrow AATTC - 3' \\\\ 3' - CTTAA \\uparrow G - 5'"
+  },
+  {
+    "id": "bio_health_aids",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "HIV Replication",
+    "description": "Retrovirus. RNA genome -> Reverse Transcription (Viral DNA) -> Integration into Host Genome -> Transcription -> New Viral RNA.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Viral RNA} \\xrightarrow{\\text{Rev. Trans.}} \\text{Viral DNA} \\xrightarrow{\\text{Integrase}} \\text{Host DNA}"
+  },
+  {
+    "id": "bio_health_drugs",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Drug Sources",
+    "description": "Opioids (Poppy - Papaver somniferum), Cannabinoids (Cannabis sativa), Coca alkaloid (Erythroxylum coca).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Morphine} \\to \\text{Latex of Poppy} \\\\ \\text{Cocaine} \\to \\text{Coca Plant (S. America)}"
+  },
+  {
+    "id": "bio_eco_pyramid_num",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Pyramid of Numbers",
+    "description": "Upright in Grassland (Producer > Herbivore > Carnivore). Inverted in Tree ecosystem (Tree < Birds < Parasites).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><polygon points='100,20 180,180 20,180' fill='#D1FAE5' stroke='#10B981'/><line x1='35' y1='150' x2='165' y2='150' stroke='#10B981'/><line x1='50' y1='120' x2='150' y2='120' stroke='#10B981'/><text x='100' y='170' text-anchor='middle' font-size='10'>Producers</text><text x='100' y='140' text-anchor='middle' font-size='10'>Pri. Cons.</text><text x='100' y='110' text-anchor='middle' font-size='10'>Sec. Cons.</text></svg>"
+  },
+  {
+    "id": "bio_eco_pyramid_bio",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Pyramid of Biomass",
+    "description": "Usually Upright. Inverted in Aquatic ecosystem (Phytoplankton mass < Zooplankton mass).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Aquatic: Inverted (PC < SC)} \\\\ \\text{Terrestrial: Upright}"
+  },
+  {
+    "id": "bio_eco_magnification",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Biomagnification",
+    "description": "Increase in concentration of toxicant (DDT/Mercury) at successive trophic levels.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='160' width='160' height='30' fill='#BFDBFE'/><text x='100' y='180' text-anchor='middle' font-size='10'>Water (0.003 ppb)</text><circle cx='100' cy='130' r='15' fill='#FCA5A5'/><text x='140' y='135' font-size='10'>Zoo (0.04 ppm)</text><ellipse cx='100' cy='90' rx='25' ry='15' fill='#F87171'/><text x='150' y='95' font-size='10'>Fish (0.5 ppm)</text><path d='M80,50 L120,50 L100,20 Z' fill='#EF4444'/><text x='150' y='40' font-size='10'>Bird (25 ppm)</text><line x1='100' y1='160' x2='100' y2='60' stroke='#000' stroke-width='2' marker-end='url(#arrow)'/></svg>"
+  },
+  {
+    "id": "bio_div_hotspots",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "title": "Biodiversity Hotspots",
+    "description": "High species richness and high endemism. 34 globally. India: Western Ghats, Himalayas, Indo-Burma.",
+    "visual_type": "latex",
+    "visual_data": "\\begin{array}{l} \\text{Criteria:} \\\\ 1.~>1500~\\text{endemic plants} \\\\ 2.~>70\\%~\\text{habitat loss} \\end{array}"
+  },
+  {
+    "id": "bio_div_curve",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "title": "Species-Area Curve (Log)",
+    "description": "Linear on log-log scale. Steeper slope (Z) for larger areas (continents).",
+    "visual_type": "latex",
+    "visual_data": "\\log S = \\log C + Z \\log A"
+  },
+  {
+    "id": "bio_repro_menstrual",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Menstrual Cycle (Hormones)",
+    "description": "Day 14: LH Surge (Ovulation). Follicular Phase (Estrogen high). Luteal Phase (Progesterone high, maintains Endometrium).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='10' x2='30' y2='130' stroke='#E5E7EB'/><line x1='30' y1='130' x2='290' y2='130' stroke='#6B7280'/><text x='150' y='145' font-size='10' text-anchor='middle'>Day 14 (Ovulation)</text><path d='M30,120 Q100,120 150,20 Q200,120 290,120' fill='none' stroke='#EF4444' stroke-width='2'/><text x='160' y='20' font-size='10' fill='#EF4444'>LH Surge</text><path d='M30,100 Q100,40 140,80 Q200,100 290,100' fill='none' stroke='#3B82F6' stroke-width='2' stroke-dasharray='4,2'/><text x='80' y='60' font-size='10' fill='#3B82F6'>Estrogen</text><path d='M30,125 L150,125 Q200,40 250,125' fill='none' stroke='#10B981' stroke-width='2'/><text x='210' y='50' font-size='10' fill='#10B981'>Progesterone</text></svg>"
+  },
+  {
+    "id": "bio_neur_synapse",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Synaptic Transmission",
+    "description": "Electrical signal reaches Axon Terminal -> Ca++ influx -> Vesicles fuse -> Neurotransmitter (Ach) released into Cleft -> Binds to Receptors.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M60,10 L60,100 Q60,140 100,140 Q140,140 140,100 L140,10' fill='#BFDBFE' stroke='#3B82F6' stroke-width='3'/><circle cx='100' cy='100' r='10' fill='#EF4444'/><circle cx='80' cy='80' r='8' fill='#EF4444'/><rect x='40' y='160' width='120' height='30' rx='5' fill='#A7F3D0' stroke='#10B981' stroke-width='3'/><path d='M80,160 L90,160 L85,150 Z' fill='#059669'/><path d='M110,160 L120,160 L115,150 Z' fill='#059669'/><circle cx='100' cy='150' r='3' fill='#EF4444'/><circle cx='85' cy='145' r='3' fill='#EF4444'/><circle cx='115' cy='145' r='3' fill='#EF4444'/><text x='150' y='100' font-size='10' fill='#3B82F6'>Axon Terminal</text><text x='170' y='170' font-size='10' fill='#10B981'>Dendrite</text></svg>"
+  },
+  {
+    "id": "bio_phot_c4",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "C4 Pathway (Hatch & Slack)",
+    "description": "Kranz Anatomy. Mesophyll: PEPCase fixes CO2 -> OAA (C4). Bundle Sheath: Decarboxylation releases CO2 for RuBisCO (C3 cycle). No Photorespiration.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 250 150' xmlns='http://www.w3.org/2000/svg'><defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='0' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='#6B7280' /></marker></defs><rect x='10' y='10' width='100' height='130' rx='10' fill='#D1FAE5' stroke='#10B981'/><text x='60' y='30' text-anchor='middle' font-size='12' font-weight='bold'>Mesophyll</text><text x='60' y='70' text-anchor='middle' font-size='10'>PEP + CO2</text><text x='60' y='100' text-anchor='middle' font-size='10' fill='#EF4444'>OAA (C4)</text><rect x='140' y='10' width='100' height='130' rx='10' fill='#FEF3C7' stroke='#F59E0B'/><text x='190' y='30' text-anchor='middle' font-size='12' font-weight='bold'>Bundle Sheath</text><text x='190' y='70' text-anchor='middle' font-size='10'>Malic Acid</text><text x='190' y='100' text-anchor='middle' font-size='10' fill='#EF4444'>RuBisCO (C3)</text><path d='M110,80 L140,80' stroke='#6B7280' stroke-width='2' marker-end='url(#arrow)'/></svg>"
+  },
+  {
+    "id": "bio_biotech_gel",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Gel Electrophoresis",
+    "description": "Separation of DNA fragments by size. DNA is negative (moves to Anode +). Smaller fragments move faster/further.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='20' width='120' height='110' fill='#E0F2FE' stroke='#3B82F6' stroke-width='2'/><rect x='50' y='25' width='20' height='10' fill='#1E3A8A'/><rect x='80' y='25' width='20' height='10' fill='#1E3A8A'/><rect x='110' y='25' width='20' height='10' fill='#1E3A8A'/><rect x='50' y='50' width='20' height='5' fill='#F97316'/><rect x='80' y='60' width='20' height='5' fill='#F97316'/><rect x='80' y='90' width='20' height='5' fill='#F97316'/><rect x='110' y='110' width='20' height='5' fill='#F97316'/><text x='20' y='30' font-size='12' font-weight='bold'>-</text><text x='20' y='130' font-size='12' font-weight='bold'>+</text><text x='165' y='40' font-size='10'>Large DNA</text><text x='165' y='120' font-size='10'>Small DNA</text></svg>"
+  },
+  {
+    "id": "bio_resp_glycolysis",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "title": "Glycolysis (EMP Pathway)",
+    "description": "Occurs in Cytoplasm. Anaerobic. 1 Glucose (6C) -> 2 Pyruvate (3C). Net gain: 2 ATP + 2 NADH.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Glucose} \\xrightarrow{\\text{Hexokinase}} \\text{G-6-P} \\to \\text{F-6-P} \\\\ \\xrightarrow{\\text{PFK}} \\text{F-1,6-BP} \\to \\text{2 Pyruvate}"
+  },
+  {
+    "id": "bio_gen_disorders",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Chromosomal Disorders",
+    "description": "Aneuploidy (Non-disjunction). Down's (Trisomy 21). Klinefelter's (XXY - Sterile male). Turner's (XO - Sterile female).",
+    "visual_type": "text",
+    "visual_data": "Down's Syndrome: 47, XX, +21\nKlinefelter's: 47, XXY (Gynecomastia)\nTurner's: 45, XO (Rudimentary Ovaries)"
+  },
+  {
+    "id": "bio_endo_thyroid",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Thyroid Hormones",
+    "description": "T3, T4 (Thyroxine) - regulate BMR (Basal Metabolic Rate). TCT (Thyrocalcitonin) - lowers blood calcium. Iodine essential.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Hypothyroid} \\to \\text{Goitre / Cretinism} \\\\ \\text{Hyperthyroid} \\to \\text{Graves' Disease}"
+  },
+  {
+    "id": "bio_repro_gameto",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Spermatogenesis vs Oogenesis",
+    "description": "Comparison of gamete formation. Spermatogenesis is continuous from puberty. Oogenesis halts at Prophase-I and Metaphase-II.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Sperm:} \\; 1 \\text{ SMC} \\to 4 \\text{ Sperms} \\\\ \\text{Ovum:} \\; 1 \\text{ OMC} \\to 1 \\text{ Ovum} + 2-3 \\text{ Polar Bodies}"
+  },
+  {
+    "id": "bio_evo_hardy",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Hardy-Weinberg Factors",
+    "description": "5 Factors affecting equilibrium: Gene Migration, Genetic Drift (Founder/Bottleneck), Mutation, Recombination, Natural Selection.",
+    "visual_type": "text",
+    "visual_data": "Equilibrium: p^2 + 2pq + q^2 = 1\n\nDisrupted by:\n1. Gene Flow\n2. Genetic Drift\n3. Mutation\n4. Recombination\n5. Natural Selection"
+  },
+  {
+    "id": "bio_cell_transport",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Water Potential",
+    "description": "\\(\\Psi_w = \\Psi_s + \\Psi_p\\). Water moves from High \\(\\Psi_w\\) (less negative) to Low \\(\\Psi_w\\) (more negative).",
+    "visual_type": "latex",
+    "visual_data": "\\Psi_w = \\Psi_s + \\Psi_p \\\\ \\Psi_s \\text{ is always negative}"
+  },
+  {
+    "id": "bio_plant_stomata",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Stomatal Apparatus",
+    "description": "Regulates transpiration and gas exchange. Guard cells (Bean-shaped in Dicots, Dumbbell in Monocots) control opening/closing via Turgor pressure.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M60,20 Q100,5 140,20 Q130,75 140,130 Q100,145 60,130 Q70,75 60,20' fill='#D1FAE5' stroke='#10B981' stroke-width='3'/><ellipse cx='100' cy='75' rx='15' ry='40' fill='#064E3B'/><circle cx='75' cy='40' r='3' fill='#10B981'/><circle cx='75' cy='60' r='3' fill='#10B981'/><circle cx='75' cy='80' r='3' fill='#10B981'/><circle cx='125' cy='40' r='3' fill='#10B981'/><circle cx='125' cy='60' r='3' fill='#10B981'/><circle cx='125' cy='80' r='3' fill='#10B981'/><text x='100' y='145' text-anchor='middle' font-size='10' fill='#065F46'>Stomatal Pore</text><text x='20' y='75' font-size='10' fill='#10B981'>Guard Cell</text></svg>"
+  },
+  {
+    "id": "bio_mol_trna",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "tRNA Structure (Clover Leaf)",
+    "description": "Adapter molecule. Anticodon loop reads mRNA. Acceptor arm (3' end) binds Amino Acid. D-loop and T-loop for stability.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100,20 L100,60 Q60,60 40,80 Q20,100 40,120 Q60,140 80,120 L90,140 Q80,180 100,190 Q120,180 110,140 L120,120 Q140,140 160,120 Q180,100 160,80 Q140,60 110,60 L110,20' fill='none' stroke='#8B5CF6' stroke-width='4'/><circle cx='100' cy='190' r='5' fill='#F59E0B'/><text x='130' y='190' font-size='10' fill='#F59E0B'>Anticodon</text><rect x='90' y='10' width='30' height='10' fill='#EF4444'/><text x='130' y='20' font-size='10' fill='#EF4444'>AA Binding (3')</text><text x='20' y='100' font-size='10' fill='#8B5CF6'>D-Loop</text><text x='165' y='100' font-size='10' fill='#8B5CF6'>T-Loop</text></svg>"
+  },
+  {
+    "id": "bio_gen_codominance",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "title": "Co-dominance (Blood Groups)",
+    "description": "Both alleles express themselves fully in heterozygotes. Example: ABO Blood Grouping (IA and IB are co-dominant).",
+    "visual_type": "latex",
+    "visual_data": "I^A I^B \\to \\text{Group AB} \\\\ I^A i \\to \\text{Group A} \\\\ ii \\to \\text{Group O}"
+  },
+  {
+    "id": "bio_plant_nitrogen",
+    "subject": "Biology",
+    "topic": "Mineral Nutrition",
+    "title": "Nitrogen Cycle Steps",
+    "description": "1. Fixation (N2 -> NH3). 2. Nitrification (NH3 -> NO2- -> NO3-). 3. Assimilation (Plants). 4. Ammonification (Dead -> NH3). 5. Denitrification (NO3- -> N2).",
+    "visual_type": "text",
+    "visual_data": "Fixation: Rhizobium / Azotobacter\nNitrification: Nitrosomonas / Nitrobacter\nDenitrification: Pseudomonas"
+  },
+  {
+    "id": "bio_human_immunity",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Active vs Passive Immunity",
+    "description": "Active: Body makes antibodies (Vaccine/Infection, Slow, Long-lasting). Passive: Ready-made antibodies (Colostrum IgA, Anti-venom, Fast, Short-lived).",
+    "visual_type": "text",
+    "visual_data": "Active: Vaccine, Infection (Memory present)\nPassive: Colostrum, Tetanus shot (No Memory)"
+  },
+  {
+    "id": "bio_cell_meiosis_pro1",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Prophase I Stages",
+    "description": "Leptotene (Condensation), Zygotene (Synapsis/Bivalent), Pachytene (Crossing Over/Recombination), Diplotene (Chiasmata), Diakinesis (Terminalization).",
+    "visual_type": "text",
+    "visual_data": "LZPDD Mnemonic:\nLazy (Leptotene)\nZebra (Zygotene)\nPushes (Pachytene)\nDumb (Diplotene)\nDonkey (Diakinesis)"
+  },
+  {
+    "id": "bio_eco_pop_interact",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Population Interactions",
+    "description": "Mutualism (+/+), Competition (-/-), Predation (+/-), Parasitism (+/-), Commensalism (+/0), Amensalism (-/0).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Lichen: Algae + Fungi (+/+)} \\\\ \\text{Orchid on Mango: (+/0)}"
+  },
+  {
+    "id": "bio_plant_photo_zscheme",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "Z-Scheme (Light Reaction)",
+    "description": "Non-cyclic photophosphorylation. PS-II (680nm) -> Plastoquinone -> Cytochrome -> PS-I (700nm) -> Ferredoxin -> NADP+.",
+    "visual_type": "latex",
+    "visual_data": "H_2O \\to \\text{PS-II} \\to \\text{ETS} \\to \\text{PS-I} \\to \\text{NADPH}"
+  },
+  {
+    "id": "bio_morph_aestivation",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Aestivation Types",
+    "description": "Arrangement of sepals/petals. Valvate (Calotropis), Twisted (Cotton), Imbricate (Cassia), Vexillary (Pea/Bean).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='40' r='20' fill='none' stroke='#EF4444' stroke-width='2' stroke-dasharray='10,5'/><text x='30' y='75' font-size='8' text-anchor='middle'>Valvate</text><path d='M70,20 L90,20 L90,40' fill='none' stroke='#3B82F6' stroke-width='2'/><text x='80' y='75' font-size='8' text-anchor='middle'>Twisted</text><path d='M130,20 Q150,5 170,20' fill='none' stroke='#10B981' stroke-width='2'/><path d='M135,40 Q150,60 165,40' fill='none' stroke='#10B981' stroke-width='2'/><text x='150' y='75' font-size='8' text-anchor='middle'>Vexillary</text></svg>"
+  },
+  {
+    "id": "bio_anim_tissues",
+    "subject": "Biology",
+    "topic": "Structural Org. in Animals",
+    "title": "Epithelial Tissue Types",
+    "description": "Squamous (Diffusion - Lungs), Cuboidal (Secretion - Ducts), Columnar (Absorption - Intestine), Ciliated (Movement - Bronchioles).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Squamous} \\to \\text{Flat (Tiles)} \\\\ \\text{Cuboidal} \\to \\text{Cube-like} \\\\ \\text{Columnar} \\to \\text{Tall/Pillar}"
+  },
+  {
+    "id": "bio_micro_biogas",
+    "subject": "Biology",
+    "topic": "Microbes in Human Welfare",
+    "title": "Biogas Plant Structure",
+    "description": "Methanogens (Methanobacterium) produce Biogas (CH4 + CO2) from dung/slurry under anaerobic conditions.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M40,140 L40,60 Q100,20 160,60 L160,140' fill='#D1FAE5' stroke='#059669' stroke-width='3'/><path d='M60,60 Q100,30 140,60 L140,100' fill='#FEF3C7' stroke='#D97706' stroke-width='2'/><line x1='100' y1='30' x2='100' y2='10' stroke='#6B7280' stroke-width='4'/><path d='M10,80 L40,100' stroke='#059669' stroke-width='3'/><path d='M160,100 L190,80' stroke='#059669' stroke-width='3'/><text x='100' y='90' text-anchor='middle' font-size='10' fill='#D97706'>Gas Holder</text><text x='100' y='130' text-anchor='middle' font-size='10' fill='#059669'>Digester</text></svg>"
+  },
+  {
+    "id": "bio_health_vaccine",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Vaccination Types",
+    "description": "Live Attenuated (MMR, OPV). Killed/Inactivated (Rabies, IPV). Toxoid (Tetanus, Diphtheria). Subunit (Hepatitis B - Yeast derived).",
+    "visual_type": "text",
+    "visual_data": "Live: Polio (Oral), BCG\nKilled: Polio (Injectable), Cholera\nToxoid: Tetanus\nRecombinant: Hep-B"
+  },
+  {
+    "id": "bio_evo_analogous",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Analogous Organs",
+    "description": "Different origin, Same function. Evidence of Convergent Evolution. Wings of Butterfly vs Bat. Eye of Octopus vs Mammal.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Wings: Insect vs Bird} \\\\ \\text{Eye: Octopus vs Mammal} \\\\ \\text{Sweet Potato (Root) vs Potato (Stem)}"
+  },
+  {
+    "id": "bio_endo_pancreas",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Pancreatic Hormones",
+    "description": "Islets of Langerhans. Alpha cells -> Glucagon (Hyperglycemic). Beta cells -> Insulin (Hypoglycemic).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Glucagon} \\uparrow \\text{Blood Glucose} \\\\ \\text{Insulin} \\downarrow \\text{Blood Glucose} \\to \\text{Glycogen}"
+  },
+  {
+    "id": "bio_repro_art_tech",
+    "subject": "Biology",
+    "topic": "Reproductive Health",
+    "title": "Infertility Treatments",
+    "description": "ZIFT (Zygote -> Fallopian). IUT (Embryo > 8 cells -> Uterus). GIFT (Gamete -> Fallopian). ICSI (Sperm injected into Ovum).",
+    "visual_type": "text",
+    "visual_data": "ZIFT: Zygote to Fallopian\nIUT: Embryo (>8 blastomeres) to Uterus\nGIFT: Gamete transfer (requires functional tube)\nICSI: Intra Cytoplasmic Sperm Injection"
+  },
+  {
+    "id": "bio_eco_succession",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Ecological Succession (Xerarch)",
+    "description": "Succession on bare rock. Lichen (Pioneer) -> Bryophytes -> Herbs -> Shrubs -> Forest (Climax).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Crustose Lichen} \\to \\text{Foliose Lichen} \\\\ \\to \\text{Moss} \\to \\text{Herbs} \\to \\text{Shrubs} \\to \\text{Trees}"
+  },
+  {
+    "id": "bio_gen_linkage_map",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Genetic Mapping",
+    "description": "Alfred Sturtevant. Distance between genes is proportional to recombination frequency. 1% Recombination = 1 map unit (cM).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='30' x2='180' y2='30' stroke='#6B7280' stroke-width='4'/><circle cx='40' cy='30' r='5' fill='#EF4444'/><text x='40' y='50' text-anchor='middle' font-size='10'>Gene A</text><circle cx='100' cy='30' r='5' fill='#3B82F6'/><text x='100' y='50' text-anchor='middle' font-size='10'>Gene B</text><circle cx='160' cy='30' r='5' fill='#10B981'/><text x='160' y='50' text-anchor='middle' font-size='10'>Gene C</text><text x='70' y='20' text-anchor='middle' font-size='10'>6 cM</text><text x='130' y='20' text-anchor='middle' font-size='10'>12 cM</text></svg>"
+  },
+  {
+    "id": "bio_morph_placentation",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Placentation Types",
+    "description": "Arrangement of ovules. Marginal (Pea), Axile (Lemon, Tomato), Parietal (Mustard), Free Central (Dianthus), Basal (Sunflower).",
+    "visual_type": "text",
+    "visual_data": "Marginal: Ridge (Pea)\nAxile: Central Axis (Tomato)\nParietal: Inner Wall (Mustard)\nBasal: Base (Sunflower)"
+  },
+  {
+    "id": "bio_cell_mitosis",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Mitosis Stages",
+    "description": "Prophase (Condensation). Metaphase (Equatorial Plate). Anaphase (Centromere splits, Chromatids move). Telophase (Decondensation).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Metaphase:} \\; \\text{Chromosomes at Equator} \\\\ \\text{Anaphase:} \\; \\text{Sister Chromatids Separate}"
+  },
+  {
+    "id": "bio_plant_growth_curve",
+    "subject": "Biology",
+    "topic": "Plant Growth",
+    "title": "Sigmoid Growth Curve",
+    "description": "Lag Phase (Slow), Log/Exponential Phase (Rapid), Stationary Phase (Limited resources).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='180' y2='130' stroke='#000'/><line x1='20' y1='10' x2='20' y2='130' stroke='#000'/><path d='M20,130 Q100,130 120,60 T180,20' fill='none' stroke='#10B981' stroke-width='2'/><text x='100' y='145' font-size='10'>Time</text><text x='5' y='70' font-size='10' transform='rotate(-90 5,70)'>Size/Weight</text><text x='60' y='110' font-size='10' fill='#059669'>Lag</text><text x='100' y='80' font-size='10' fill='#059669'>Log</text><text x='150' y='30' font-size='10' fill='#059669'>Stationary</text></svg>"
+  },
+  {
+    "id": "bio_circ_ecg",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Electrocardiogram (ECG)",
+    "description": "P-Wave (Atrial Depolarization). QRS Complex (Ventricular Depolarization). T-Wave (Ventricular Repolarization). Count QRS to get Heart Rate.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><path d='M0,50 L300,50' stroke='#E5E7EB' stroke-width='1'/><path d='M10,50 L30,50 Q40,20 50,50 L60,50 L65,80 L75,10 L85,90 L90,50 L110,50 Q130,20 150,50 L180,50' fill='none' stroke='#EF4444' stroke-width='2'/><text x='40' y='15' font-size='10' fill='#EF4444'>P</text><text x='75' y='5' font-size='10' fill='#EF4444'>QRS</text><text x='130' y='15' font-size='10' fill='#EF4444'>T</text></svg>"
+  },
+  {
+    "id": "bio_mol_replication",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Replication Fork",
+    "description": "Occurs in 5' to 3' direction. Leading Strand (Continuous). Lagging Strand (Discontinuous - Okazaki Fragments). Ligase joins fragments.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M20,20 L100,75 L20,130' fill='none' stroke='#6B7280' stroke-width='2'/><path d='M40,35 L90,70' fill='none' stroke='#10B981' stroke-width='3'/><path d='M90,70 L95,73' stroke='#10B981' marker-end='url(#arrow)'/><path d='M40,115 L60,100' fill='none' stroke='#EF4444' stroke-width='3'/><path d='M70,95 L90,80' fill='none' stroke='#EF4444' stroke-width='3'/><text x='110' y='75' font-size='10'>Helicase</text><text x='10' y='30' font-size='10'>3'</text><text x='10' y='130' font-size='10'>5'</text><text x='50' y='20' font-size='10' fill='#10B981'>Leading</text><text x='50' y='140' font-size='10' fill='#EF4444'>Lagging</text></svg>"
+  },
+  {
+    "id": "bio_biotech_insulin",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Insulin Maturation",
+    "description": "Pro-insulin contains A, B, and C peptide chains. Mature Insulin has only A and B chains linked by Disulfide bridges (C-peptide removed).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M50,40 L150,40' fill='none' stroke='#3B82F6' stroke-width='4'/><text x='20' y='45' font-size='10' fill='#3B82F6'>Chain A</text><path d='M50,80 L150,80' fill='none' stroke='#10B981' stroke-width='4'/><text x='20' y='85' font-size='10' fill='#10B981'>Chain B</text><line x1='70' y1='40' x2='70' y2='80' stroke='#F59E0B' stroke-width='2'/><line x1='120' y1='40' x2='120' y2='80' stroke='#F59E0B' stroke-width='2'/><text x='95' y='65' font-size='8' fill='#F59E0B'>S-S</text><path d='M150,40 Q180,60 150,80' fill='none' stroke='#9CA3AF' stroke-width='2' stroke-dasharray='4,2'/><text x='170' y='60' font-size='8' fill='#9CA3AF'>C-Peptide</text></svg>"
+  },
+  {
+    "id": "bio_eco_age_pyramid",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Age Pyramids",
+    "description": "Shape indicates population growth. Triangular = Expanding (Young > Old). Bell = Stable (Young = Old). Urn = Declining (Young < Old).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,10 90,90 10,90' fill='#BFDBFE' stroke='#3B82F6'/><text x='50' y='100' text-anchor='middle' font-size='10'>Expanding</text><path d='M140,10 L160,10 L180,90 L120,90 Z' fill='#A7F3D0' stroke='#10B981'/><text x='150' y='100' text-anchor='middle' font-size='10'>Stable</text><path d='M230,10 L270,10 L260,90 L240,90 Z' fill='#FECACA' stroke='#EF4444'/><text x='250' y='100' text-anchor='middle' font-size='10'>Declining</text></svg>"
+  },
+  {
+    "id": "bio_mol_transcription",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Transcription Unit",
+    "description": "Promoter (binding site for RNA Pol), Structural Gene (transcribed), Terminator. Template Strand (3'->5'). Coding Strand (5'->3').",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 80' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='30' x2='280' y2='30' stroke='#000' stroke-width='2'/><line x1='20' y1='50' x2='280' y2='50' stroke='#000' stroke-width='2'/><rect x='40' y='20' width='40' height='40' fill='#FCA5A5' opacity='0.5'/><text x='60' y='45' text-anchor='middle' font-size='10'>Promoter</text><rect x='220' y='20' width='40' height='40' fill='#FCA5A5' opacity='0.5'/><text x='240' y='45' text-anchor='middle' font-size='10'>Terminator</text><text x='150' y='45' text-anchor='middle' font-size='12' font-weight='bold'>Structural Gene</text><text x='10' y='35' font-size='10'>3'</text><text x='290' y='35' font-size='10'>5'</text><text x='10' y='55' font-size='10'>5'</text><text x='290' y='55' font-size='10'>3'</text></svg>"
+  },
+  {
+    "id": "bio_plant_root_nodule",
+    "subject": "Biology",
+    "topic": "Mineral Nutrition",
+    "title": "Root Nodule Formation",
+    "description": "Rhizobium multiplies -> Root hair curls -> Infection thread carries bacteria to cortex -> Cells divide -> Nodule formed. Leghaemoglobin creates anaerobic condition.",
+    "visual_type": "text",
+    "visual_data": "1. Rhizobium colonization\n2. Curling of Root Hair\n3. Infection Thread formation\n4. Bacteria released into cortex\n5. Differentiation into Bacteroids\n6. Nitrogenase enzyme activation"
+  },
+  {
+    "id": "bio_cell_cycle_checkpoints",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Cell Cycle Checkpoints",
+    "description": "Control mechanisms. G1/S (Restriction Point) - checks DNA damage. G2/M - checks DNA replication. M (Spindle) - checks chromosome attachment.",
+    "visual_type": "text",
+    "visual_data": "G1/S: Decision to divide (Start)\nG2/M: DNA Replication complete?\nM: Metaphase alignment correct?"
+  },
+  {
+    "id": "bio_gen_pedigree",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Pedigree Analysis Symbols",
+    "description": "Square=Male, Circle=Female. Shaded=Affected. Double line=Consanguineous mating (relatives).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='20' height='20' stroke='#000' fill='none'/><text x='30' y='60' text-anchor='middle' font-size='8'>Male</text><circle cx='80' cy='30' r='10' stroke='#000' fill='none'/><text x='80' y='60' text-anchor='middle' font-size='8'>Female</text><rect x='130' y='20' width='20' height='20' fill='#EF4444'/><text x='140' y='60' text-anchor='middle' font-size='8'>Affected</text><line x1='170' y1='30' x2='190' y2='30' stroke='#000'/><line x1='170' y1='35' x2='190' y2='35' stroke='#000'/><text x='180' y='60' text-anchor='middle' font-size='8'>Mating</text></svg>"
+  },
+  {
+    "id": "bio_env_ozone",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Ozone Depletion",
+    "description": "Good Ozone (Stratosphere) protects from UV-B. Bad Ozone (Troposphere). Thickness measured in Dobson Units (DU). CFCs release Cl atoms which degrade Ozone.",
+    "visual_type": "latex",
+    "visual_data": "CF_2Cl_2 \\xrightarrow{UV} Cl \\bullet \\\\ Cl \\bullet + O_3 \\to ClO + O_2"
+  },
+  {
+    "id": "bio_morph_inflorescence",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Inflorescence Types",
+    "description": "Racemose: Main axis continues growth, flowers acropetal (bottom-old, top-young). Cymose: Main axis terminates in flower, basipetal order.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Racemose} \\to \\text{Unlimited Growth} \\\\ \\text{Cymose} \\to \\text{Limited Growth (Terminates)}"
+  },
+  {
+    "id": "bio_health_malaria",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Malaria Lifecycle",
+    "description": "Infective stage: Sporozoites (Mosquito bite). Liver: Asexual reproduction. RBCs: Rupture releases Haemozoin (Fever/Chills). Gametocytes formed in Human, fertilization in Mosquito gut.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='60' width='130' height='80' fill='#FECACA' rx='10'/> <text x='75' y='130' text-anchor='middle' font-size='10' fill='#EF4444'>Human Host</text> <rect x='160' y='60' width='130' height='80' fill='#BFDBFE' rx='10'/> <text x='225' y='130' text-anchor='middle' font-size='10' fill='#3B82F6'>Mosquito Host</text> <circle cx='40' cy='90' r='15' fill='#7F1D1D'/> <text x='40' y='110' font-size='8' fill='#fff' text-anchor='middle'>Liver</text> <circle cx='100' cy='90' r='10' fill='#EF4444'/> <text x='100' y='110' font-size='8' fill='#fff' text-anchor='middle'>RBC</text> <path d='M100,80 L160,20 L220,80 L160,140 L100,80' fill='none' stroke='#000' stroke-dasharray='4,2'/> <text x='160' y='20' text-anchor='middle' font-size='10'>Sporozoites</text> <text x='160' y='145' text-anchor='middle' font-size='10'>Gametes</text></svg>"
+  },
+  {
+    "id": "bio_biotech_bioreactor",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Stirred Tank Bioreactor",
+    "description": "Used for large scale culture. Agitator mixes oxygen. Sparger introduces air bubbles. Control systems for pH, Temperature, and Foam.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M50,180 L50,40 Q100,20 150,40 L150,180 Q100,200 50,180' fill='#E0F2FE' stroke='#3B82F6' stroke-width='2'/> <line x1='100' y1='20' x2='100' y2='160' stroke='#000' stroke-width='4'/> <rect x='70' y='140' width='60' height='10' fill='#6B7280'/> <rect x='70' y='100' width='60' height='10' fill='#6B7280'/> <circle cx='80' cy='170' r='2' fill='#fff'/> <circle cx='120' cy='170' r='2' fill='#fff'/> <circle cx='60' cy='150' r='3' fill='#fff'/> <rect x='90' y='5' width='20' height='20' fill='#374151'/> <text x='100' y='195' text-anchor='middle' font-size='10'>Sterile Air</text></svg>"
+  },
+  {
+    "id": "bio_plant_hormones",
+    "subject": "Biology",
+    "topic": "Plant Growth",
+    "title": "Plant Hormones Functions",
+    "description": "Auxin (Apical Dominance, Rooting). Gibberellin (Bolting, Internode elongation). Cytokinin (Cell division, Delay senescence). Ethylene (Ripening). ABA (Stress hormone, Stomata closure).",
+    "visual_type": "text",
+    "visual_data": "Auxin: Apical Dominance\nGibberellin: 'Bolting' (Sugarcane)\nCytokinin: Cell Division\nEthylene: Fruit Ripening\nABA: Stress / Dormancy"
+  },
+  {
+    "id": "bio_mol_fingerprint",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "DNA Fingerprinting",
+    "description": "Alec Jeffreys. Uses Satellite DNA (VNTRs - Variable Number Tandem Repeats). Steps: Isolation -> Digestion -> Electrophoresis -> Blotting -> Probe Hybridization.",
+    "visual_type": "text",
+    "visual_data": "VNTR: Mini-satellite DNA\nSensitivity: PCR increases sample\nBlotting: Southern Blot (Nitrocellulose)"
+  },
+  {
+    "id": "bio_resp_krebs",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "title": "Krebs Cycle (TCA)",
+    "description": "Matrix of Mitochondria. Acetyl CoA (2C) + OAA (4C) -> Citrate (6C). Decarboxylation releases 2 CO2. Yields: 3 NADH, 1 FADH2, 1 GTP per cycle.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Citrate} \\to \\alpha\\text{-Ketoglutarate} \\to \\text{Succinate} \\\\ \\to \\text{Malate} \\to \\text{Oxaloacetate}"
+  },
+  {
+    "id": "bio_cell_meiosis_ana1",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Anaphase I vs Anaphase II",
+    "description": "Anaphase I: Homologous chromosomes separate (Segregation), Centromere does NOT split. Anaphase II: Centromere splits, Sister chromatids separate.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Ana I: 2n} \\to \\text{n (Reduction)} \\\\ \\text{Ana II: n} \\to \\text{n (Equational)}"
+  },
+  {
+    "id": "bio_eco_growth_curves",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Population Growth Models",
+    "description": "Exponential: dN/dt = rN (Unlimited resources). Logistic: dN/dt = rN((K-N)/K) (Limited resources, Carrying Capacity K).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Exp: J-Shaped} \\\\ \\text{Logistic: S-Shaped (Sigmoid)}"
+  },
+  {
+    "id": "bio_div_conservation",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "title": "In-situ vs Ex-situ",
+    "description": "In-situ (On site): National Parks, Sanctuaries, Biosphere Reserves, Sacred Groves. Ex-situ (Off site): Zoos, Botanical Gardens, Cryopreservation, Seed Banks.",
+    "visual_type": "text",
+    "visual_data": "In-situ: Protect whole ecosystem\nEx-situ: Protect specific endangered species"
+  },
+  {
+    "id": "bio_repro_embryo",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Embryonic Development",
+    "description": "Zygote -> Morula (8-16 cells) -> Blastocyst (Implants) -> Gastrula (3 Germ layers). Heart forms after 1 month. Limbs/Digits by 2nd month.",
+    "visual_type": "text",
+    "visual_data": "1st Month: Heart beat\n2nd Month: Limbs/Digits\n1st Trimester: Major Organs\n5th Month: First Movement / Hair"
+  },
+  {
+    "id": "bio_gen_lac_operon",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Lac Operon Regulation",
+    "description": "Jacob & Monod. Polycistronic structural gene (z, y, a). Regulated by Repressor protein (from i gene). Lactose is Inducer.",
+    "visual_type": "latex",
+    "visual_data": "\\text{No Lactose} \\to \\text{Repressor binds O} \\to \\text{OFF} \\\\ \\text{Lactose} \\to \\text{Repressor blocked} \\to \\text{ON}"
+  },
+  {
+    "id": "bio_plant_transport_path",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Apoplast vs Symplast",
+    "description": "Apoplast: Cell wall path (Non-living, Fast). Blocked by Casparian Strip. Symplast: Cytoplasm path via Plasmodesmata (Living, Slow).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 120' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='100' fill='none' stroke='#000' stroke-width='2'/><rect x='100' y='10' width='80' height='100' fill='none' stroke='#000' stroke-width='2'/><rect x='190' y='10' width='80' height='100' fill='none' stroke='#000' stroke-width='2'/><rect x='195' y='10' width='10' height='100' fill='#EF4444'/><text x='200' y='115' font-size='8' text-anchor='middle'>Casparian</text><path d='M50,15 L90,15 L90,105 L180,105' fill='none' stroke='#EF4444' stroke-width='3' stroke-dasharray='4,2'/><text x='50' y='30' font-size='10' fill='#EF4444'>Apoplast (Wall)</text><path d='M50,60 L140,60 L230,60' fill='none' stroke='#10B981' stroke-width='3'/><text x='50' y='75' font-size='10' fill='#10B981'>Symplast (Cyto)</text><line x1='90' y1='60' x2='100' y2='60' stroke='#10B981' stroke-width='5'/></svg>"
+  },
+  {
+    "id": "bio_cell_chloroplast",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "title": "Chloroplast Structure",
+    "description": "Double membrane. Thylakoids (Light Reaction). Stroma (Dark Reaction). Grana (Stacks of Thylakoids). Contains 70S Ribosomes & circular DNA.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><ellipse cx='100' cy='60' rx='90' ry='50' fill='#D1FAE5' stroke='#065F46' stroke-width='3'/><rect x='40' y='40' width='20' height='40' fill='#10B981'/><rect x='80' y='30' width='20' height='60' fill='#10B981'/><rect x='130' y='45' width='20' height='30' fill='#10B981'/><line x1='60' y1='50' x2='80' y2='50' stroke='#10B981' stroke-width='2'/><line x1='100' y1='60' x2='130' y2='60' stroke='#10B981' stroke-width='2'/><text x='100' y='100' text-anchor='middle' font-size='10' fill='#064E3B'>Stroma</text><text x='140' y='40' font-size='10' fill='#064E3B'>Thylakoid</text></svg>"
+  },
+  {
+    "id": "bio_enz_inhibition",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Enzyme Inhibition Types",
+    "description": "Competitive: Inhibitor mimics substrate, binds Active Site (\\(V_{max}\\) same, \\(K_m\\) increases). Non-competitive: Binds Allosteric Site (\\(V_{max}\\) decreases).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Comp: } K_m \\uparrow, V_{max} \\text{ same} \\\\ \\text{Non-Comp: } V_{max} \\downarrow, K_m \\text{ same}"
+  },
+  {
+    "id": "bio_plant_cycles",
+    "subject": "Biology",
+    "topic": "Plant Kingdom",
+    "title": "Plant Life Cycles",
+    "description": "Haplontic (Volvox, Spirogyra). Diplontic (Fucus, Gymnosperms, Angiosperms). Haplo-diplontic (Bryophytes, Pteridophytes).",
+    "visual_type": "text",
+    "visual_data": "Haplontic: Zygotic Meiosis (Algae)\nDiplontic: Gametic Meiosis (Seed plants)\nHaplo-diplontic: Alternation of Gen."
+  },
+  {
+    "id": "bio_morph_symmetry",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Floral Symmetry",
+    "description": "Actinomorphic (Radial) - cut in any plane (Mustard, Datura). Zygomorphic (Bilateral) - cut in one plane (Pea, Bean, Gulmohar).",
+    "visual_type": "latex",
+    "visual_data": "\\oplus \\to \\text{Actinomorphic} \\\\ \\% \\to \\text{Zygomorphic}"
+  },
+  {
+    "id": "bio_anim_chordata",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Chordata Characteristics",
+    "description": "1. Notochord. 2. Dorsal hollow nerve cord. 3. Paired pharyngeal gill slits. 4. Post-anal tail. Closed circulatory system.",
+    "visual_type": "text",
+    "visual_data": "Fundamental Features:\n1. Notochord (Rod-like)\n2. Nerve Cord (Dorsal, Hollow)\n3. Gill Slits (Pharyngeal)\n4. Post-anal Tail"
+  },
+  {
+    "id": "bio_plant_sec_growth",
+    "subject": "Biology",
+    "topic": "Anatomy of Flowering Plants",
+    "title": "Secondary Growth (Dicot Stem)",
+    "description": "Vascular Cambium cuts off Secondary Xylem (inside) and Secondary Phloem (outside). Cork Cambium forms Periderm (Bark).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Cambium} \\to \\text{Sec. Xylem (Wood)} \\\\ \\text{Cambium} \\to \\text{Sec. Phloem (Bast)}"
+  },
+  {
+    "id": "bio_cell_ribosomes",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Ribosome Types",
+    "description": "Protein factories. Composed of rRNA and proteins. Prokaryotic (70S) and Eukaryotic (80S). 'S' = Svedberg Unit.",
+    "visual_type": "latex",
+    "visual_data": "70S = 50S + 30S \\; (\\text{Prokaryotes}) \\\\ 80S = 60S + 40S \\; (\\text{Eukaryotes})"
+  },
+  {
+    "id": "bio_mol_code",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Genetic Code Properties",
+    "description": "Triplet code (61 codons for AA, 3 Stop). Universal (AUG is Start/Met). Degenerate (One AA has multiple codons). Unambiguous.",
+    "visual_type": "text",
+    "visual_data": "AUG: Start Codon (Methionine)\nUAA, UAG, UGA: Stop Codons\nDegenerate: wobble hypothesis"
+  },
+  {
+    "id": "bio_eco_population",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Biotic Potential (r)",
+    "description": "Intrinsic rate of natural increase. Darwinian fitness. High 'r' means organism reproduces quickly (e.g., bacteria, insects).",
+    "visual_type": "latex",
+    "visual_data": "\\frac{dN}{dt} = rN \\\\ r = (b - d)"
+  },
+  {
+    "id": "bio_neur_eye",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Photoreception Mechanism",
+    "description": "Light -> Dissociation of Retinal from Opsin -> Opsin structure changes -> Membrane potential changes -> Signal to Ganglion cells.",
+    "visual_type": "latex",
+    "visual_data": "\\begin{gathered} \\text{Rhodopsin} \\xrightarrow{\\text{Light}} \\text{Opsin} + \\text{Retinal} \\\\ \\text{Vit A derivative: Retinal (Aldehyde)} \\end{gathered}"
+  },
+  {
+    "id": "bio_resp_volumes",
+    "subject": "Biology",
+    "topic": "Breathing & Exchange",
+    "title": "Lung Volumes",
+    "description": "TV (Tidal Vol) = 500ml. IRV (Inspiratory Reserve) = 2500-3000ml. ERV (Expiratory Reserve) = 1000-1100ml. RV (Residual) = 1100-1200ml.",
+    "visual_type": "latex",
+    "visual_data": "\\begin{gathered} \\text{VC} = \\text{TV} + \\text{IRV} + \\text{ERV} \\\\ \\text{TLC} = \\text{VC} + \\text{RV} \\end{gathered}"
+  },
+  {
+    "id": "bio_circ_blood_groups",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Blood Group Compatibility",
+    "description": "Antigens on RBC surface. Antibodies in Plasma. O- is Universal Donor (No antigens). AB+ is Universal Recipient (No antibodies).",
+    "visual_type": "latex",
+    "visual_data": "\\begin{gathered} \\text{Donor (O)} \\to \\text{No Antigen} \\\\ \\text{Recipient (AB)} \\to \\text{No Antibody} \\end{gathered}"
+  },
+  {
+    "id": "bio_mol_hgp",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Human Genome Project",
+    "description": "Completed 2003. 3 x 10^9 base pairs. 20,000-25,000 genes. Less than 2% codes for proteins. Chromosome 1 has most genes (2968), Y has fewest (231).",
+    "visual_type": "latex",
+    "visual_data": "\\begin{gathered} 3.3 \\times 10^9 \\text{ bp (Haploid)} \\\\ 99.9\\% \\text{ Nucleotides same in all humans} \\end{gathered}"
+  },
+  {
+    "id": "bio_evo_hardy_eq",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Hardy-Weinberg Equation",
+    "description": "Allele frequencies remain constant in absence of disturbing factors. Sum of frequencies is 1.",
+    "visual_type": "latex",
+    "visual_data": "\\begin{gathered} p + q = 1 \\\\ p^2 + 2pq + q^2 = 1 \\\\ (p^2 \\text{ AA}, q^2 \\text{ aa}, 2pq \\text{ Aa}) \\end{gathered}"
+  },
+  {
+    "id": "bio_dig_enzymes",
+    "subject": "Biology",
+    "topic": "Digestion & Absorption",
+    "title": "Protein Digestion Sequence",
+    "visual_type": "latex",
+    "visual_data": "\\text{Proteins} \\xrightarrow{\\text{Pepsin (Stomach)}} \\text{Peptones} \\xrightarrow{\\text{Trypsin (Pancreas)}} \\text{Dipeptides} \\xrightarrow{\\text{Dipeptidase (Intestine)}} \\text{Amino Acids}",
+    "description": "Sequential breakdown of proteins. Pepsin requires acidic pH (1.8). Trypsin/Chymotrypsin require alkaline pH (7.8) activated by Enterokinase.",
+    "derivation": "Protein $\\to$ Proteoses/Peptones $\\to$ Dipeptides $\\to$ Amino Acids."
+  },
+  {
+    "id": "bio_dig_teeth",
+    "subject": "Biology",
+    "topic": "Digestion & Absorption",
+    "title": "Human Dental Formula",
+    "visual_type": "latex",
+    "visual_data": "\\frac{2123}{2123} \\times 2 = 32",
+    "description": "Arrangement of teeth in each half of upper and lower jaw: Incisors (2), Canines (1), Premolars (2), Molars (3). Thecodont, Diphyodont, Heterodont.",
+    "derivation": "Child Formula: 2102/2102 (20 teeth). No Premolars in milk teeth."
+  },
+  {
+    "id": "bio_resp_volumes_cap",
+    "subject": "Biology",
+    "topic": "Breathing & Exchange",
+    "title": "Respiratory Capacities",
+    "visual_type": "latex",
+    "visual_data": "\\begin{aligned} \\text{IC} &= \\text{TV} + \\text{IRV} \\\\ \\text{FRC} &= \\text{ERV} + \\text{RV} \\\\ \\text{VC} &= \\text{ERV} + \\text{TV} + \\text{IRV} \\end{aligned}",
+    "description": "Derived volumes. Vital Capacity (VC) is max air breathed out after forced inspiration. FRC is air remaining after normal expiration.",
+    "derivation": "TLC = VC + RV (Total Lung Capacity)."
+  },
+  {
+    "id": "bio_circ_blood_clot",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Coagulation Cascade",
+    "visual_type": "latex",
+    "visual_data": "\\text{Prothrombin} \\xrightarrow{\\text{Thrombokinase}} \\text{Thrombin} \\\\ \\text{Fibrinogen} \\xrightarrow{\\text{Thrombin}} \\text{Fibrin}",
+    "description": "Cascade mechanism. Calcium ions ($Ca^{++}$) play a crucial role in both steps. Vitamin K required for Prothrombin synthesis.",
+    "derivation": "Injury $\\to$ Thromboplastin $\\to$ Thrombokinase enzyme complex."
+  },
+  {
+    "id": "bio_exc_countercurrent",
+    "subject": "Biology",
+    "topic": "Excretory Products",
+    "title": "Counter Current Mechanism",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M60,20 L60,160 Q80,180 100,160 L100,20' fill='none' stroke='#F59E0B' stroke-width='3'/><path d='M120,20 L120,160 Q140,180 160,160 L160,20' fill='none' stroke='#EF4444' stroke-width='3'/><text x='30' y='90' font-size='10' transform='rotate(90 30,90)'>Henle Loop</text><text x='180' y='90' font-size='10' transform='rotate(90 180,90)'>Vasa Recta</text><text x='80' y='190' font-size='10' text-anchor='middle'>High Osmolarity (1200)</text><text x='80' y='15' font-size='10' text-anchor='middle'>Cortex (300)</text><path d='M70,50 L90,50' stroke='#000' marker-end='url(#arrow)'/><path d='M130,130 L150,130' stroke='#000' marker-end='url(#arrow)'/></svg>",
+    "description": "Henle's Loop and Vasa Recta. Multiplies osmolarity from 300 (Cortex) to 1200 mOsm (Medulla). Essential for concentrating urine.",
+    "derivation": "NaCl transported by ascending limb exchanged with descending Vasa Recta."
+  },
+  {
+    "id": "bio_musc_sliding",
+    "subject": "Biology",
+    "topic": "Locomotion",
+    "title": "Sliding Filament Theory",
+    "visual_type": "latex",
+    "visual_data": "\\text{Actin slides over Myosin} \\to \\text{Sarcomere Shortens} \\\\ \\text{H-zone disappears, I-band shortens, A-band constant}",
+    "description": "Mechanism of muscle contraction. Calcium binds Troponin $\\to$ Unmasks Actin $\\to$ Myosin head binds $\\to$ Power stroke (ATP hydrolysis).",
+    "derivation": "Cross-bridge cycle: Formation $\\to$ Rotation $\\to$ Detachment."
+  },
+  {
+    "id": "bio_neur_ear",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Internal Ear (Cochlea)",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='90' fill='none' stroke='#000'/><path d='M20,100 Q100,20 180,100' fill='none' stroke='#000'/><path d='M20,100 Q100,180 180,100' fill='none' stroke='#000'/><text x='100' y='60' text-anchor='middle'>Scala Vestibuli (Perilymph)</text><text x='100' y='140' text-anchor='middle'>Scala Tympani (Perilymph)</text><path d='M30,100 L170,100' stroke='#000' stroke-width='2'/><text x='100' y='95' text-anchor='middle' font-size='10'>Organ of Corti</text><text x='100' y='115' text-anchor='middle' font-size='10'>Basilar Membrane</text></svg>",
+    "description": "Hearing organ. Organ of Corti on Basilar Membrane. Hair cells act as receptors. Vibrations in fluid bend hair cells against Tectorial Membrane.",
+    "derivation": "Sound $\\to$ Ear Drum $\\to$ Ossicles $\\to$ Oval Window $\\to$ Cochlear Fluid."
+  },
+  {
+    "id": "bio_chem_adrenal",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Adrenal Gland Hormones",
+    "visual_type": "latex",
+    "visual_data": "\\text{Cortex} \\begin{cases} \\text{Glucocorticoids (Cortisol)} \\\\ \\text{Mineralocorticoids (Aldosterone)} \\end{cases} \\\\ \\text{Medulla} \\to \\text{Adrenaline (Fight/Flight)}",
+    "description": "Cortisol: Anti-inflammatory, Gluconeogenesis. Aldosterone: $Na^+$ and Water reabsorption. Adrenaline: Emergency hormone.",
+    "derivation": "3 Layers of Cortex: Glomerulosa, Fasciculata, Reticularis."
+  },
+  {
+    "id": "bio_repro_sperm",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Sperm Structure",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 100 250' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='30' rx='20' ry='25' fill='#E0F2FE' stroke='#3B82F6'/><path d='M30,10 Q50,0 70,10' fill='#FCA5A5' stroke='#EF4444' stroke-width='2'/><text x='50' y='20' text-anchor='middle' font-size='8'>Acrosome</text><rect x='40' y='55' width='20' height='40' fill='#D1FAE5' stroke='#10B981'/><text x='80' y='75' font-size='8'>Middle Piece (Mitochondria)</text><path d='M50,95 Q60,150 50,240' fill='none' stroke='#000' stroke-width='2'/><text x='60' y='200' font-size='8'>Tail</text></svg>",
+    "description": "Head (Nucleus + Acrosome with lytic enzymes). Middle Piece (Mitochondria - Powerhouse for motility). Tail (Flagellum).",
+    "derivation": "Acrosome is derived from Golgi body."
+  },
+  {
+    "id": "bio_plant_tissue_xylem",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Xylem vs Phloem",
+    "visual_type": "latex",
+    "visual_data": "\\text{Xylem (Water)}: \\text{Tracheids, Vessels, Fibres, Parenchyma} \\\\ \\text{Phloem (Food)}: \\text{Sieve Tubes, Companion Cells, Fibres, Parenchyma}",
+    "description": "Complex permanent tissues. Xylem is mostly dead (except Parenchyma). Phloem is mostly living (except Fibres). Gymnosperms lack Vessels.",
+    "derivation": "Companion cells control Sieve tubes (which lack nucleus)."
+  },
+  {
+    "id": "bio_plant_flo_formula",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Floral Formula Symbols",
+    "visual_type": "latex",
+    "visual_data": "\\oplus \\text{ (Actinomorphic)}, \\% \\text{ (Zygomorphic)} \\\\ K_{(5)} \\text{ (Gamosepalous)}, C_5 \\text{ (Polypetalous)} \\\\ A_{(9)+1} \\text{ (Diadelphous)}, G_{\\underline{1}} \\text{ (Superior Ovary)}",
+    "description": "Fabaceae: $\\% \\, K_{(5)} \\, C_{1+2+(2)} \\, A_{(9)+1} \\, G_1$. Solanaceae: $\\oplus \\, K_{(5)} \\, C_{(5)} \\, A_5 \\, G_{(2)}$. Liliaceae: $\\oplus \\, P_{(3+3)} \\, A_{3+3} \\, G_{(3)}$.",
+    "derivation": "Standard technical description of flowering plants."
+  },
+  {
+    "id": "bio_cell_meiosis_crossing",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Crossing Over",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M60,20 L60,130' stroke='#3B82F6' stroke-width='4'/><path d='M80,20 L80,130' stroke='#3B82F6' stroke-width='4'/><path d='M120,20 L120,130' stroke='#EF4444' stroke-width='4'/><path d='M140,20 L140,130' stroke='#EF4444' stroke-width='4'/><circle cx='100' cy='75' r='20' fill='none' stroke='#000' stroke-dasharray='2,2'/><text x='100' y='145' text-anchor='middle' font-size='10'>Recombination Nodule</text><path d='M80,75 L120,75' stroke='#000' stroke-width='2'/></svg>",
+    "description": "Exchange of genetic material between non-sister chromatids of homologous chromosomes. Enzyme: Recombinase. Occurs in Pachytene.",
+    "derivation": "Leads to genetic variation."
+  },
+  {
+    "id": "bio_div_algae",
+    "subject": "Biology",
+    "topic": "Plant Kingdom",
+    "title": "Algae Classification",
+    "visual_type": "latex",
+    "visual_data": "\\begin{array}{l|l|l} \\text{Class} & \\text{Pigments} & \\text{Food} \\\\ \\hline \\text{Chlorophyceae} & \\text{Chl a, b} & \\text{Starch} \\\\ \\text{Phaeophyceae} & \\text{Chl a, c, Fucoxanthin} & \\text{Mannitol} \\\\ \\text{Rhodophyceae} & \\text{Chl a, d, Phycoerythrin} & \\text{Floridean} \\end{array}",
+    "description": "Green (Volvox), Brown (Fucus, Kelp), Red (Polysiphonia). Brown algae have Algin coating. Red algae produce Agar.",
+    "derivation": "Pigment depth penetration: Red algae found deepest (absorb blue light)."
+  },
+  {
+    "id": "bio_anim_phyla",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phyla Features Summary",
+    "visual_type": "latex",
+    "visual_data": "\\begin{array}{l} \\text{Porifera: Cellular, Choanocytes} \\\\ \\text{Cnidaria: Tissue, Cnidoblasts} \\\\ \\text{Platyhelminthes: Acoelomate, Flame Cells} \\\\ \\text{Arthropoda: Jointed legs, Chitin} \\end{array}",
+    "description": "Key distinguishing features. Annelida (Metamerism), Mollusca (Radula/Mantle), Echinodermata (Water Vascular System).",
+    "derivation": "Evolutionary trend: Cellular $\\to$ Tissue $\\to$ Organ $\\to$ Organ System."
+  },
+  {
+    "id": "bio_mol_rna_types",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Types of RNA",
+    "visual_type": "latex",
+    "visual_data": "\\begin{array}{l} \\text{mRNA (Messenger): Template} \\\\ \\text{tRNA (Transfer): Adapter (reads code)} \\\\ \\text{rRNA (Ribosomal): Structural/Catalytic} \\end{array}",
+    "description": "rRNA is most abundant (80%). 23S rRNA acts as Ribozyme (Peptide bond formation). mRNA carries codon info.",
+    "derivation": "Central Dogma flow facilitators."
+  },
+  {
+    "id": "bio_biotech_btcotton",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Bt Cotton Mechanism",
+    "visual_type": "latex",
+    "visual_data": "\\text{Cry gene} \\to \\text{Inactive Protoxin} \\xrightarrow{\\text{Alkaline pH (Gut)}} \\text{Active Toxin}",
+    "description": "Bacillus thuringiensis. Toxin binds to midgut epithelium of insect $\\to$ Lysis $\\to$ Death. CryIAc (Bollworm), CryIAb (Corn borer).",
+    "derivation": "Specific to Lepidopterans, Coleopterans, Dipterans."
+  },
+  {
+    "id": "bio_eco_nutrient_cycle",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Carbon vs Phosphorus Cycle",
+    "visual_type": "latex",
+    "visual_data": "\\text{Carbon: Gaseous (Atmosphere)} \\\\ \\text{Phosphorus: Sedimentary (Rocks)}",
+    "description": "Carbon flows through photosynthesis/respiration. Phosphorus flows through weathering/absorption. No respiratory release of Phosphorus.",
+    "derivation": "71% Carbon found in oceans."
+  },
+  {
+    "id": "bio_gen_mutation",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "title": "Types of Mutation",
+    "visual_type": "latex",
+    "visual_data": "\\text{Point: Change in single base pair (Sickle Cell)} \\\\ \\text{Frameshift: Insertion/Deletion (Thalassemia)}",
+    "description": "Sickle Cell: GAG $\\to$ GUG (Glu $\\to$ Val). Frame shift changes the entire reading frame.",
+    "derivation": "Mutagens: UV rays, chemical agents."
+  },
+  {
+    "id": "bio_cell_membrane",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "title": "Fluid Mosaic Model",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 300 100' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='30' width='300' height='40' fill='#F3F4F6'/><circle cx='20' cy='30' r='5' fill='#3B82F6'/><line x1='20' y1='30' x2='20' y2='50' stroke='#000'/><circle cx='20' cy='70' r='5' fill='#3B82F6'/><line x1='20' y1='70' x2='20' y2='50' stroke='#000'/><text x='20' y='15' font-size='8'>Polar Head</text><ellipse cx='80' cy='50' rx='15' ry='30' fill='#F59E0B'/><text x='80' y='90' font-size='8'>Integral Protein</text><circle cx='140' cy='25' r='10' fill='#10B981'/><text x='140' y='10' font-size='8'>Peripheral</text><path d='M200,30 L210,10 L220,30' fill='none' stroke='#000'/><text x='230' y='20' font-size='8'>Sugar Chain</text></svg>",
+    "description": "Singer & Nicolson (1972). Phospholipid bilayer (fluidity) with embedded proteins (mosaic). Proteins: Integral (Tunnel) and Peripheral. Cholesterol provides stability.",
+    "derivation": "Quasi-fluid nature enables cell growth, secretion, endocytosis."
+  },
+  {
+    "id": "bio_plant_photo_factors",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "Blackman's Law of Limiting Factors",
+    "visual_type": "latex",
+    "visual_data": "\\text{Rate} \\propto \\text{Factor closest to minimum value}",
+    "description": "Photosynthesis rate is limited by the factor in shortest supply (CO2, Light, Temp, Water). Usually CO2 is the limiting factor for C3 plants.",
+    "derivation": "Light saturation at 10% of full sunlight."
+  },
+  {
+    "id": "bio_resp_rq",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "title": "Respiratory Quotient (RQ)",
+    "visual_type": "latex",
+    "visual_data": "RQ = \\frac{\\text{Vol. } CO_2 \\text{ evolved}}{\\text{Vol. } O_2 \\text{ consumed}}",
+    "description": "Carbohydrates: 1.0. Fats: 0.7 (Tripalmitin). Proteins: 0.9. Organic Acids: > 1.",
+    "derivation": "$C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O$. $6/6 = 1$."
+  },
+  {
+    "id": "bio_morph_fruit",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Fruit Types",
+    "visual_type": "latex",
+    "visual_data": "\\text{Drupe: Stony Endocarp (Mango, Coconut)} \\\\ \\text{Parthenocarpic: Seedless (Banana)}",
+    "description": "True Fruit: Developed from ovary. False Fruit: Thalamus contributes (Apple, Strawberry). Parthenocarpic: Without fertilization.",
+    "derivation": "Mango: Edible part is Mesocarp."
+  },
+  {
+    "id": "bio_anim_cockroach",
+    "subject": "Biology",
+    "topic": "Structural Org. in Animals",
+    "title": "Cockroach Excretion",
+    "visual_type": "latex",
+    "visual_data": "\\text{Malpighian Tubules} \\to \\text{Uric Acid (Uricotelic)}",
+    "description": "Tubules lined by glandular and ciliated cells. Absorb nitrogenous waste from hemolymph and convert to uric acid. Hindgut reabsorbs water.",
+    "derivation": "Fat body, nephrocytes, and urecose glands also help."
+  },
+  {
+    "id": "bio_biom_dna_bonds",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Bonds in DNA",
+    "visual_type": "latex",
+    "visual_data": "\\text{N-Glycosidic: Sugar + Base} \\\\ \\text{Phosphodiester: Sugar + Phosphate (Backbone)} \\\\ \\text{Hydrogen: Base + Base}",
+    "description": "Nucleoside = Sugar + Base. Nucleotide = Nucleoside + Phosphate.",
+    "derivation": "Directionality 5' (Phosphate) to 3' (OH)."
+  },
+  {
+    "id": "bio_div_virus",
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "title": "Viruses & Viroids",
+    "visual_type": "latex",
+    "visual_data": "\\text{Virus: Nucleoprotein (DNA/RNA + Capsid)} \\\\ \\text{Viroid: Free RNA (No coat, Low MW)} \\\\ \\text{Prion: Abnormal Protein}",
+    "description": "Virus (Ivanowsky/Stanley). Viroid (T.O. Diener - Potato Spindle Tuber). Prion (Mad Cow Disease).",
+    "derivation": "Connect link between living and non-living."
+  },
+  {
+    "id": "bio_eco_biodiv_loss",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "title": "Evil Quartet (Loss Causes)",
+    "visual_type": "text",
+    "visual_data": "1. Habitat Loss & Fragmentation (Most imp)\n2. Over-exploitation\n3. Alien Species Invasion (Water Hyacinth)\n4. Co-extinction"
+  },
+  {
+    "id": "bio_mol_nucleosome",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Nucleosome Model",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='80' r='40' fill='#E5E7EB' stroke='#9CA3AF'/><text x='100' y='85' text-anchor='middle' font-size='10'>Histone Octamer</text><path d='M40,120 Q100,20 160,120' fill='none' stroke='#EF4444' stroke-width='4'/><text x='170' y='130' font-size='10' fill='#EF4444'>DNA (200 bp)</text><rect x='140' y='50' width='10' height='20' fill='#3B82F6'/><text x='160' y='60' font-size='10' fill='#3B82F6'>H1</text></svg>",
+    "description": "DNA packaging. Negatively charged DNA wrapped around Positively charged Histone Octamer (H2A, H2B, H3, H4 x2). H1 is linker histone.",
+    "derivation": "Beads-on-string structure."
+  },
+  {
+    "id": "bio_gen_sex_det",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "title": "Sex Determination",
+    "visual_type": "latex",
+    "visual_data": "\\text{XX-XY: Human, Drosophila (Male Het)} \\\\ \\text{XX-XO: Grasshopper (Male Het)} \\\\ \\text{ZZ-ZW: Birds (Female Het)}",
+    "description": "Heterogametic sex produces two types of gametes determining the sex of offspring.",
+    "derivation": "Haplodiploidy in Honeybees."
+  },
+  {
+    "id": "bio_env_greenhouse",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Greenhouse Gases",
+    "visual_type": "latex",
+    "visual_data": "CO_2 (60\\%) > CH_4 (20\\%) > CFCs (14\\%) > N_2O (6\\%)",
+    "description": "Contribution to Global Warming. Gases absorb long-wave IR radiation from Earth.",
+    "derivation": "Kyoto Protocol targets reduction of these gases."
+  },
+  {
+    "id": "bio_biotech_insulin_gen",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Genetically Engineered Insulin",
+    "visual_type": "latex",
+    "visual_data": "\\text{Eli Lilly (1983)}: \\text{Chain A & B produced separately in E. coli} \\to \\text{Combined via Disulfide bonds}",
+    "description": "Overcame problem of C-peptide removal. Trade name: Humulin.",
+    "derivation": "Recombinant DNA technology application."
+  },
+  {
+    "id": "bio_neur_brain",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Human Brain Structure",
+    "description": "Forebrain (Cerebrum, Thalamus, Hypothalamus). Midbrain (Corpora Quadrigemina). Hindbrain (Pons, Cerebellum, Medulla). Corpus Callosum connects hemispheres.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M40,100 Q40,20 120,20 Q180,20 180,80 Q180,100 140,100' fill='#E0F2FE' stroke='#3B82F6' stroke-width='2'/><path d='M140,100 Q170,100 170,130 Q140,140 120,120' fill='#FECACA' stroke='#EF4444' stroke-width='2'/><path d='M120,100 L110,140' stroke='#000' stroke-width='4'/><text x='90' y='50' font-size='10'>Cerebrum</text><text x='160' y='120' font-size='8' fill='#991B1B'>Cerebellum</text><text x='90' y='130' font-size='8'>Medulla</text><path d='M90,70 Q110,70 130,80' fill='none' stroke='#000'/><text x='80' y='80' font-size='8'>Corpus Callosum</text></svg>"
+  },
+  {
+    "id": "bio_neur_reflex",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Reflex Arc",
+    "description": "Involuntary response. Receptor -> Sensory Neuron (Dorsal root) -> Spinal Cord (Interneuron) -> Motor Neuron (Ventral root) -> Effector (Muscle).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Stimulus} \\to \\text{Receptor} \\xrightarrow{\\text{Sensory}} \\text{CNS} \\xrightarrow{\\text{Motor}} \\text{Muscle}"
+  },
+  {
+    "id": "bio_musc_joints",
+    "subject": "Biology",
+    "topic": "Locomotion",
+    "title": "Types of Joints",
+    "description": "Fibrous (Skull sutures - No movement). Cartilaginous (Vertebrae - Slight movement). Synovial (Fluid filled - Free movement).",
+    "visual_type": "text",
+    "visual_data": "Ball & Socket: Shoulder/Hip\nHinge: Elbow/Knee\nPivot: Atlas & Axis\nGliding: Carpals\nSaddle: Thumb"
+  },
+  {
+    "id": "bio_evo_miller",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Miller-Urey Experiment",
+    "description": "Chemical Evolution. Simulated primitive earth: CH4, NH3, H2, Water vapor at 800°C + Electric Discharge. Result: Amino Acids formed.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><circle cx='150' cy='40' r='30' fill='none' stroke='#000'/><text x='150' y='45' text-anchor='middle' font-size='8'>Gases + Spark</text><path d='M150,70 L150,120 L50,120 L50,80' fill='none' stroke='#000'/><rect x='30' y='80' width='40' height='30' fill='#BFDBFE'/><text x='50' y='100' text-anchor='middle' font-size='8'>Boiling Water</text><text x='100' y='140' text-anchor='middle' font-size='10' fill='#EF4444'>Amino Acids</text></svg>"
+  },
+  {
+    "id": "bio_mol_splicing",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "Post-Transcriptional Modifications",
+    "description": "Eukaryotes only. hnRNA -> Capping (5' mGPPP) + Tailing (3' Poly-A) + Splicing (Introns removed, Exons joined) -> mRNA.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Exons (Coding)} + \\text{Introns (Non-coding)} \\\\ \\xrightarrow{\\text{Spliceosome}} \\text{Mature mRNA (Exons only)}"
+  },
+  {
+    "id": "bio_plant_embryo_sac",
+    "subject": "Biology",
+    "topic": "Sexual Repro. in Plants",
+    "title": "Embryo Sac Structure",
+    "description": "Female Gametophyte. 7-celled, 8-nucleate. Egg apparatus (Egg + 2 Synergids) at micropyle. 3 Antipodals at chalaza. Central cell (2 Polar nuclei).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 100 200' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='100' rx='40' ry='90' fill='#F3F4F6' stroke='#000'/><circle cx='50' cy='170' r='8' fill='#EF4444'/><circle cx='35' cy='180' r='6' fill='#FCA5A5'/><circle cx='65' cy='180' r='6' fill='#FCA5A5'/><text x='50' y='195' text-anchor='middle' font-size='8'>Egg Apparatus</text><circle cx='50' cy='100' r='5' fill='#000'/><circle cx='60' cy='100' r='5' fill='#000'/><text x='80' y='100' font-size='8'>Polar Nuclei</text><circle cx='50' cy='30' r='6' fill='#3B82F6'/><circle cx='35' cy='30' r='6' fill='#3B82F6'/><circle cx='65' cy='30' r='6' fill='#3B82F6'/><text x='50' y='15' text-anchor='middle' font-size='8'>Antipodals</text></svg>"
+  },
+  {
+    "id": "bio_div_virus_t4",
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "title": "Bacteriophage Structure",
+    "description": "Virus that infects bacteria. Polyhedral Head (Capsid containing DNA), Collar, Sheath, Tail Fibres (attachment).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 150 200' xmlns='http://www.w3.org/2000/svg'><path d='M50,20 L100,20 L110,50 L40,50 Z' fill='#E5E7EB' stroke='#000'/><rect x='65' y='50' width='20' height='60' fill='#9CA3AF' stroke='#000'/><line x1='65' y1='110' x2='20' y2='150' stroke='#000' stroke-width='2'/><line x1='85' y1='110' x2='130' y2='150' stroke='#000' stroke-width='2'/><text x='75' y='35' text-anchor='middle' font-size='8'>Head</text><text x='75' y='80' text-anchor='middle' font-size='8'>Sheath</text><text x='75' y='160' text-anchor='middle' font-size='8'>Tail Fibres</text></svg>"
+  },
+  {
+    "id": "bio_circ_cardiac_cycle",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Cardiac Cycle (0.8s)",
+    "description": "Sequence of events in one heartbeat. Atrial Systole (0.1s) -> Ventricular Systole (0.3s) -> Joint Diastole (0.4s). Stroke Volume = 70ml.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Lub} \\to \\text{Closure of AV valves (Vent. Systole)} \\\\ \\text{Dub} \\to \\text{Closure of Semilunar valves (Vent. Diastole)}"
+  },
+  {
+    "id": "bio_endo_hormone_action",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Hormone Action Mechanism",
+    "description": "Protein Hormones (Insulin): Bind membrane receptor -> Second messenger (cAMP/Ca++) -> Response. Steroid Hormones (Estrogen): Cross membrane -> Bind intracellular receptor -> Gene expression.",
+    "visual_type": "text",
+    "visual_data": "Membrane Bound: Fast, Cascade effect (e.g., FSH)\nIntracellular: Slow, regulate DNA (e.g., Cortisol)"
+  },
+  {
+    "id": "bio_plant_anat_vascular",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Vascular Bundles",
+    "description": "Radial (Roots). Conjoint (Stems/Leaves). Open (Cambium present - Dicots). Closed (No Cambium - Monocots).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' fill='none' stroke='#000'/><path d='M20,50 L80,50' stroke='#000'/><rect x='30' y='45' width='40' height='10' fill='#EF4444'/><text x='50' y='30' text-anchor='middle' font-size='8'>Phloem</text><text x='50' y='50' text-anchor='middle' font-size='8' fill='#fff'>Cambium</text><text x='50' y='80' text-anchor='middle' font-size='8'>Xylem</text><text x='50' y='95' text-anchor='middle' font-size='8'>Conjoint Open (Dicot)</text></svg>"
+  },
+  {
+    "id": "bio_health_cancer",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Cancer Biology",
+    "description": "Uncontrolled cell division. Loss of Contact Inhibition. Metastasis (spread to other organs). Benign (localized) vs Malignant (spreading) tumors.",
+    "visual_type": "text",
+    "visual_data": "Carcinogens: UV, Tobacco, X-rays\nGenes: Proto-oncogenes (normal) -> Oncogenes (cancer)"
+  },
+  {
+    "id": "bio_biom_enz_km",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Michaelis-Menten Graph",
+    "description": "Hyperbolic curve. Vmax = Max velocity. Km = Substrate concentration at Vmax/2. Low Km = High Affinity.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='180' y2='130' stroke='#000'/><line x1='20' y1='10' x2='20' y2='130' stroke='#000'/><path d='M20,130 Q40,30 180,30' fill='none' stroke='#3B82F6' stroke-width='2'/><line x1='20' y1='30' x2='180' y2='30' stroke='#000' stroke-dasharray='4,2'/><text x='10' y='30' font-size='10'>Vmax</text><line x1='20' y1='80' x2='60' y2='80' stroke='#000' stroke-dasharray='4,2'/><text x='10' y='80' font-size='10'>Vmax/2</text><line x1='60' y1='80' x2='60' y2='130' stroke='#000' stroke-dasharray='4,2'/><text x='60' y='145' font-size='10'>Km</text></svg>"
+  },
+  {
+    "id": "bio_anim_cnidoblast",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Cnidoblast Structure",
+    "description": "Characteristic of Coelenterata (Cnidaria). Stinging cell for defense/prey. Contains nematocyst (capsule with toxin).",
+    "visual_type": "text",
+    "visual_data": "Function: Anchorage, Defense, Capture of Prey\nExample: Hydra, Jellyfish, Sea Anemone"
+  },
+  {
+    "id": "bio_morph_leaf",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Leaf Phyllotaxy",
+    "description": "Pattern of leaf arrangement. Alternate (China Rose - 1 per node). Opposite (Guava - 2 per node). Whorled (Alstonia - >2 per node).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 80' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='10' x2='30' y2='70' stroke='#059669'/><path d='M30,30 L10,20' stroke='#10B981'/><path d='M30,50 L50,40' stroke='#10B981'/><text x='30' y='78' text-anchor='middle' font-size='8'>Alternate</text><line x1='100' y1='10' x2='100' y2='70' stroke='#059669'/><path d='M100,40 L80,30' stroke='#10B981'/><path d='M100,40 L120,30' stroke='#10B981'/><text x='100' y='78' text-anchor='middle' font-size='8'>Opposite</text></svg>"
+  },
+  {
+    "id": "bio_resp_regulation",
+    "subject": "Biology",
+    "topic": "Breathing & Exchange",
+    "title": "Regulation of Respiration",
+    "description": "Respiratory Rhythm Centre (Medulla). Pneumotaxic Centre (Pons) - reduces duration of inspiration. Chemosensitive Area - sensitive to CO2 and H+.",
+    "visual_type": "latex",
+    "visual_data": "\\text{High } CO_2/H^+ \\to \\text{Signal to Rhythm Centre} \\to \\text{Increase Breathing Rate}"
+  },
+  {
+    "id": "bio_dig_liver",
+    "subject": "Biology",
+    "topic": "Digestion & Absorption",
+    "title": "Liver & Bile",
+    "description": "Largest gland. Hepatic lobules (structural unit). Secretes Bile (No enzymes, emulsifies fats). Bile stored in Gall Bladder.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Fat} \\xrightarrow{\\text{Bile}} \\text{Emulsified Fat (Micelles)} \\xrightarrow{\\text{Lipase}} \\text{Fatty Acids}"
+  },
+  {
+    "id": "bio_cell_cilia",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Cilia/Flagella Structure",
+    "description": "9+2 Arrangement of microtubules in axoneme. 9 peripheral doublets + 2 central singlets. Basal body has 9+0 arrangement.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' fill='none' stroke='#000'/><circle cx='50' cy='50' r='40' fill='#E5E7EB'/><circle cx='45' cy='50' r='3' fill='#3B82F6'/><circle cx='55' cy='50' r='3' fill='#3B82F6'/><text x='50' y='50' text-anchor='middle' font-size='6'>2</text><circle cx='50' cy='10' r='4' fill='#EF4444'/><circle cx='85' cy='30' r='4' fill='#EF4444'/><circle cx='85' cy='70' r='4' fill='#EF4444'/><circle cx='50' cy='90' r='4' fill='#EF4444'/><circle cx='15' cy='70' r='4' fill='#EF4444'/><circle cx='15' cy='30' r='4' fill='#EF4444'/><text x='50' y='65' text-anchor='middle' font-size='6'>9+2</text></svg>"
+  },
+  {
+    "id": "bio_repro_oogenesis",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Follicular Development",
+    "description": "Primary Follicle -> Secondary -> Tertiary (Antrum fluid cavity) -> Graafian Follicle (mature). Ruptures to release ovum -> Corpus Luteum.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Graafian Follicle} \\xrightarrow{\\text{LH Surge}} \\text{Ovum} + \\text{Corpus Luteum (Progesterone)}"
+  },
+  {
+    "id": "bio_eco_cycles_phos",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Phosphorus Cycle",
+    "description": "Sedimentary cycle. Reservoir: Rocks. Weathering releases phosphate -> Soil -> Plants -> Animals -> Detritus -> Soil.",
+    "visual_type": "text",
+    "visual_data": "Difference from Carbon Cycle:\n1. No respiratory release of P\n2. Atmospheric input is negligible"
+  },
+  {
+    "id": "bio_biotech_rnai",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "RNA Interference (RNAi)",
+    "description": "Gene silencing defense in eukaryotes. dsRNA binds to mRNA and destroys it, preventing translation. Used in nematode resistant tobacco (Meloidegyne incognita).",
+    "visual_type": "latex",
+    "visual_data": "\\text{dsRNA} \\to \\text{siRNA} \\to \\text{RISC Complex} \\to \\text{mRNA Cleavage (Silencing)}"
+  },
+  {
+    "id": "bio_resp_ets",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "title": "Electron Transport System (ETS)",
+    "description": "Inner Mitochondrial Membrane. Complex I (NADH dehydrogenase), II (Succinate dehydrogenase), III (Cytochrome bc1), IV (Cytochrome c oxidase), V (ATP Synthase). Final acceptor is Oxygen.",
+    "visual_type": "latex",
+    "visual_data": "\\frac{1}{2}O_2 + 2H^+ + 2e^- \\to H_2O \\; (\\text{Metabolic Water})"
+  },
+  {
+    "id": "bio_phot_photoresp",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "Photorespiration (C2 Cycle)",
+    "description": "Wasteful process in C3 plants when RuBisCO binds O2 instead of CO2. Occurs in Chloroplast -> Peroxisome -> Mitochondria. No ATP/Sugar produced.",
+    "visual_type": "latex",
+    "visual_data": "\\text{RuBP} + O_2 \\xrightarrow{\\text{RuBisCO}} \\text{Phosphoglycerate (3C)} + \\text{Phosphoglycolate (2C)}"
+  },
+  {
+    "id": "bio_plant_photoperiod",
+    "subject": "Biology",
+    "topic": "Plant Growth",
+    "title": "Photoperiodism",
+    "description": "Response to day length. LDP (Long Day): Flower when day > critical (Wheat). SDP (Short Day): Flower when day < critical (Tobacco). Day Neutral (Tomato).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='60' height='20' fill='#FDE68A' stroke='#000'/><text x='50' y='35' text-anchor='middle' font-size='8'>Light</text><rect x='80' y='20' width='100' height='20' fill='#4B5563' stroke='#000'/><text x='130' y='35' text-anchor='middle' font-size='8' fill='#fff'>Dark (Critical)</text><text x='100' y='60' text-anchor='middle' font-size='10'>SDP requires long dark period</text></svg>"
+  },
+  {
+    "id": "bio_circ_lymph",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Lymphatic System",
+    "description": "Tissue fluid (Interstitial fluid). Similar to plasma but fewer proteins. Carries fats (Lacteals in villi) and lymphocytes (Immunity). Drains back to veins.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Lymph} = \\text{Blood} - (\\text{RBCs} + \\text{Platelets} + \\text{Large Proteins})"
+  },
+  {
+    "id": "bio_exc_dialysis",
+    "subject": "Biology",
+    "topic": "Excretory Products",
+    "title": "Haemodialysis",
+    "description": "Artificial Kidney. Blood pumped into unit with dialysing fluid (same composition as plasma except nitrogenous waste). Waste diffuses out.",
+    "visual_type": "text",
+    "visual_data": "Anti-coagulant used: Heparin\nPrinciple: Diffusion across semi-permeable cellophane membrane"
+  },
+  {
+    "id": "bio_endo_pth",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Parathyroid Hormone (PTH)",
+    "description": "Hypercalcemic hormone. Increases blood Ca++ by bone resorption (demineralization) and reabsorption in kidney. Antagonistic to TCT (Thyrocalcitonin).",
+    "visual_type": "latex",
+    "visual_data": "PTH \\uparrow Ca^{++} \\text{ (Blood)} \\\\ TCT \\downarrow Ca^{++} \\text{ (Blood)}"
+  },
+  {
+    "id": "bio_repro_parturition",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Parturition (Childbirth)",
+    "description": "Neuroendocrine mechanism. Fetal Ejection Reflex: Signals from fully developed fetus/placenta -> Oxytocin release (Pituitary) -> Uterine Contractions.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Fetal Signal} \\to \\text{Oxytocin} \\to \\text{Stronger Contraction} \\to \\text{More Oxytocin}"
+  },
+  {
+    "id": "bio_gen_testcross",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Test Cross",
+    "description": "Cross between dominant phenotype (unknown genotype) and recessive parent. Used to determine if individual is Homozygous (TT) or Heterozygous (Tt).",
+    "visual_type": "latex",
+    "visual_data": "\\text{If 100\\% Tall} \\to \\text{Parent was TT} \\\\ \\text{If 50\\% Tall, 50\\% Dwarf} \\to \\text{Parent was Tt}"
+  },
+  {
+    "id": "bio_gen_polygenic",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Polygenic Inheritance",
+    "description": "Quantitative inheritance. Trait controlled by 3 or more genes. Additive effect. Example: Human Skin Color (AABBCC = Darkest, aabbcc = Lightest).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><path d='M10,90 Q100,10 190,90' fill='none' stroke='#000'/><line x1='100' y1='10' x2='100' y2='90' stroke='#000' stroke-dasharray='4,2'/><text x='100' y='95' text-anchor='middle' font-size='8'>Intermediate Skin Color</text><text x='10' y='95' font-size='8'>Light</text><text x='190' y='95' font-size='8'>Dark</text></svg>"
+  },
+  {
+    "id": "bio_evo_radiation",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Adaptive Radiation",
+    "description": "Evolution of different species from a common ancestor starting in a geographical area and radiating to other habitats. Ex: Darwin's Finches, Australian Marsupials.",
+    "visual_type": "text",
+    "visual_data": "Darwin's Finches: Beak shape changed based on food (Seed, Insect, Cactus)\nMarsupials: Wolf, Tiger Cat, Anteater (all marsupial)"
+  },
+  {
+    "id": "bio_health_diseases",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Common Bacterial Diseases",
+    "description": "Typhoid (Salmonella typhi - Widal Test). Pneumonia (Streptococcus pneumoniae - Alveoli fluid). Plague (Yersinia pestis).",
+    "visual_type": "text",
+    "visual_data": "Typhoid: High fever, stomach pain, perforation\nPneumonia: Chills, gray/bluish lips/nails"
+  },
+  {
+    "id": "bio_micro_sewage",
+    "subject": "Biology",
+    "topic": "Microbes in Human Welfare",
+    "title": "Sewage Treatment",
+    "description": "Primary (Physical): Filtration/Sedimentation. Secondary (Biological): Aeration tanks (Flocs consume organic matter, reduce BOD) -> Anaerobic Sludge Digester.",
+    "visual_type": "latex",
+    "visual_data": "BOD \\propto \\text{Polluting Potential} \\\\ \\text{Flocs} = \\text{Bacteria} + \\text{Fungal Filaments}"
+  },
+  {
+    "id": "bio_biotech_reg",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Ethical Issues (GEAC)",
+    "description": "GEAC (Genetic Engineering Appraisal Committee). Validates GM research and safety of releasing GM organisms. Biopiracy: Theft of bio-resources (e.g., Basmati rice patent).",
+    "visual_type": "text",
+    "visual_data": "Functions of GEAC:\n1. Safety of GM crops\n2. Field trials approval\n3. Environmental impact assessment"
+  },
+  {
+    "id": "bio_eco_decomp",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Decomposition Steps",
+    "description": "Breakdown of detritus. 1. Fragmentation (Earthworm). 2. Leaching (Water soluble nutrients go down). 3. Catabolism (Enzymes). 4. Humification. 5. Mineralization.",
+    "visual_type": "text",
+    "visual_data": "Detritivores: Earthworms (Farmer's friend)\nFactors: Warm/Moist (Fast), Chitin/Lignin rich (Slow)"
+  },
+  {
+    "id": "bio_repro_pollination",
+    "subject": "Biology",
+    "topic": "Sexual Repro. in Plants",
+    "title": "Pollination Agents",
+    "description": "Anemophily (Wind - Maize, Grasses; non-sticky pollen). Hydrophily (Water - Vallisneria, Zostera). Entomophily (Insect - Yucca/Moth, Amorphophallus).",
+    "visual_type": "text",
+    "visual_data": "Wind: Exposed stamens, feathery stigma\nInsect: Colorful, Nectar, Sticky pollen\nYucca: Obligate mutualism with Moth"
+  },
+  {
+    "id": "bio_plant_tissue",
+    "subject": "Biology",
+    "topic": "Biotechnology / Botany",
+    "title": "Tissue Culture",
+    "description": "Totipotency: Capacity of a cell to generate whole plant. Explant grown in nutrient medium. Micropropagation (Somaclones). Virus-free plants (Meristem culture).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Explant} \\xrightarrow{\\text{Auxin/Cytokinin}} \\text{Callus} \\to \\text{Plantlet}"
+  },
+  {
+    "id": "bio_health_drug_abuse",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Drugs & Alcohol Abuse",
+    "description": "Opioids (Heroin/Smack - Depressant). Cannabinoids (Marijuana - Cardiovascular). Coca alkaloids (Coke - Euphoria). Hallucinogens (LSD, Datura).",
+    "visual_type": "text",
+    "visual_data": "Cirrhosis: Liver damage from Alcohol\nWithdrawal: Anxiety, Shakiness, Nausea"
+  },
+  {
+    "id": "bio_evo_human",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Human Evolution",
+    "description": "Dryopithecus (Ape-like) -> Ramapithecus -> Australopithecus (2mya, Fruit) -> Homo habilis (First human-like, 650cc) -> Homo erectus (Meat eater, 900cc) -> Homo sapiens.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='30' x2='190' y2='30' stroke='#000'/><circle cx='30' cy='30' r='5' fill='#000'/><text x='30' y='50' text-anchor='middle' font-size='8'>Australo</text><circle cx='80' cy='30' r='5' fill='#000'/><text x='80' y='50' text-anchor='middle' font-size='8'>Habilis</text><circle cx='130' cy='30' r='5' fill='#000'/><text x='130' y='50' text-anchor='middle' font-size='8'>Erectus</text><circle cx='180' cy='30' r='5' fill='#000'/><text x='180' y='50' text-anchor='middle' font-size='8'>Sapiens</text><text x='80' y='15' text-anchor='middle' font-size='6'>650-800cc</text><text x='130' y='15' text-anchor='middle' font-size='6'>900cc</text></svg>"
+  },
+  {
+    "id": "bio_cell_nucleus",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "title": "Nucleus Structure",
+    "description": "Double membrane (Nuclear envelope) with pores. Nucleoplasm contains Chromatin (DNA+Histones) and Nucleolus (rRNA synthesis site).",
+    "visual_type": "text",
+    "visual_data": "Heterochromatin: Densely packed, Transcriptionally inactive\nEuchromatin: Loosely packed, Active"
+  },
+  {
+    "id": "bio_eco_stratification",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Stratification",
+    "description": "Vertical distribution of different species occupying different levels. Example in Forest: Trees (Top) -> Shrubs (Middle) -> Herbs/Grasses (Bottom).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 100 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='130' width='60' height='20' fill='#A7F3D0'/><text x='50' y='145' text-anchor='middle' font-size='8'>Herbs</text><rect x='20' y='90' width='60' height='40' fill='#34D399'/><text x='50' y='115' text-anchor='middle' font-size='8'>Shrubs</text><rect x='10' y='10' width='80' height='80' fill='#059669'/><text x='50' y='50' text-anchor='middle' font-size='8'>Trees</text></svg>"
+  },
+  {
+    "id": "bio_plant_bryo",
+    "subject": "Biology",
+    "topic": "Plant Kingdom",
+    "title": "Bryophytes (Amphibians of Plant Kingdom)",
+    "description": "Liverworts (Marchantia) & Mosses (Funaria). Depend on water for fertilization. Dominant phase: Gametophyte (n). Sporophyte depends on Gametophyte.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 100 150' xmlns='http://www.w3.org/2000/svg'><path d='M50,140 Q20,120 10,100 Q30,120 50,130 Q70,120 90,100 Q80,120 50,140' fill='#10B981' stroke='#064E3B'/><text x='50' y='145' text-anchor='middle' font-size='8'>Gametophyte (n)</text><line x1='50' y1='130' x2='50' y2='50' stroke='#F59E0B' stroke-width='2'/><text x='60' y='90' font-size='8'>Seta</text><ellipse cx='50' cy='40' rx='10' ry='15' fill='#F59E0B'/><text x='50' y='20' text-anchor='middle' font-size='8'>Capsule (2n)</text></svg>"
+  },
+  {
+    "id": "bio_plant_pteri",
+    "subject": "Biology",
+    "topic": "Plant Kingdom",
+    "title": "Pteridophytes (Ferns)",
+    "description": "First terrestrial vascular plants (Xylem/Phloem). Dominant phase: Sporophyte (2n). Gametophyte (Prothallus) is small, free-living, photosynthetic.",
+    "visual_type": "text",
+    "visual_data": "Examples: Selaginella, Equisetum\nSpores: Homosporous (Similiar) or Heterosporous (Different - Selaginella)"
+  },
+  {
+    "id": "bio_anim_aschelm",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Aschelminthes (Roundworms)",
+    "description": "Pseudocoelomates (False body cavity). Bilateral symmetry. Muscular pharynx. Sexual dimorphism (Males shorter than Females).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Ascaris (Roundworm)} \\\\ \\text{Wuchereria (Filarial worm)} \\\\ \\text{Ancylostoma (Hookworm)}"
+  },
+  {
+    "id": "bio_morph_seed",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Dicot vs Monocot Seed",
+    "description": "Dicot: 2 Cotyledons, Embryonal axis (Plumule/Radicle). Monocot: 1 Cotyledon (Scutellum), Aleurone layer (Protein), Endosperm (Food).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='50' rx='30' ry='40' fill='#FEF3C7' stroke='#D97706'/><path d='M50,10 L50,90' stroke='#D97706'/><text x='50' y='50' text-anchor='middle' font-size='8'>Dicot (2 Cots)</text><rect x='120' y='10' width='60' height='80' fill='#E5E7EB' stroke='#000'/><rect x='125' y='15' width='50' height='50' fill='#FDE68A'/><text x='150' y='40' text-anchor='middle' font-size='8'>Endosperm</text><rect x='125' y='70' width='50' height='15' fill='#10B981'/><text x='150' y='80' text-anchor='middle' font-size='8'>Embryo</text></svg>"
+  },
+  {
+    "id": "bio_dig_absorb",
+    "subject": "Biology",
+    "topic": "Digestion & Absorption",
+    "title": "Absorption Mechanisms",
+    "description": "Simple Diffusion (Small amts of Glucose, Amino acids, Cl-). Facilitated Transport (Glucose, AA with carrier Na+). Active Transport (Against gradient - Na+).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Fats} \\to \\text{Micelles} \\to \\text{Chylomicrons (Protein coated)} \\to \\text{Lacteals (Lymph)}"
+  },
+  {
+    "id": "bio_resp_transport",
+    "subject": "Biology",
+    "topic": "Breathing & Exchange",
+    "title": "Transport of Gases",
+    "description": "O2: 97% by RBC (Oxyhaemoglobin), 3% dissolved in plasma. CO2: 70% as Bicarbonate (HCO3-), 20-25% as Carbamino-Hb, 7% dissolved.",
+    "visual_type": "latex",
+    "visual_data": "CO_2 + H_2O \\xrightarrow{\\text{Carbonic Anhydrase}} H_2CO_3 \\to HCO_3^- + H^+"
+  },
+  {
+    "id": "bio_circ_disorders",
+    "subject": "Biology",
+    "topic": "Body Fluids & Circulation",
+    "title": "Circulatory Disorders",
+    "description": "Hypertension (>140/90). CAD (Atherosclerosis - Ca/Fat deposits in arteries). Angina (Chest pain - low O2). Heart Failure (Pumping failure).",
+    "visual_type": "text",
+    "visual_data": "Cardiac Arrest: Heart stops beating\nHeart Attack: Muscle damage due to no blood supply"
+  },
+  {
+    "id": "bio_loco_skeleton",
+    "subject": "Biology",
+    "topic": "Locomotion",
+    "title": "Human Skeleton (206 Bones)",
+    "description": "Axial (80): Skull (22), Vertebral Column (26), Sternum (1), Ribs (12 pairs). Appendicular (126): Limbs (30x4), Girdles (Pectoral 4, Pelvic 2).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Ribs:} \\; 1\\text{-}7 \\text{ True}, 8\\text{-}10 \\text{ False}, 11\\text{-}12 \\text{ Floating}"
+  },
+  {
+    "id": "bio_neur_ear_bal",
+    "subject": "Biology",
+    "topic": "Neural Control",
+    "title": "Vestibular Apparatus (Balance)",
+    "description": "Located above Cochlea. 3 Semicircular canals (Dynamic balance - Crista ampullaris). Otolith organ (Saccule & Utricle - Static balance - Macula).",
+    "visual_type": "text",
+    "visual_data": "Crista: Angular acceleration (Rotation)\nMacula: Linear acceleration / Gravity (Tilt)"
+  },
+  {
+    "id": "bio_endo_pineal",
+    "subject": "Biology",
+    "topic": "Chemical Coordination",
+    "title": "Pineal Gland",
+    "description": "Dorsal side of forebrain. Secretes Melatonin. Regulates Diurnal (24-hour) rhythm (Sleep-wake cycle, Body temp).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Melatonin} \\propto \\text{Darkness} \\\\ \\text{Regulates: Sleep, Menstruation, Pigmentation}"
+  },
+  {
+    "id": "bio_repro_contra",
+    "subject": "Biology",
+    "topic": "Reproductive Health",
+    "title": "Contraceptive Methods",
+    "description": "Barrier (Condoms, Diaphragms). IUDs (Copper T - suppress motility; LNG-20 - hormone releasing). Oral Pills (Saheli - Non-steroidal, Centchroman).",
+    "visual_type": "text",
+    "visual_data": "Surgical: Vasectomy (Male), Tubectomy (Female)\nNatural: Periodic Abstinence, Withdrawal, Lactational Amenorrhea"
+  },
+  {
+    "id": "bio_gen_disorder_mend",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Mendelian Disorders",
+    "description": "Haemophilia (Sex-linked Recessive - Clotting defect). Sickle Cell Anemia (Autosomal Recessive - HbS). Phenylketonuria (Inborn error of metabolism).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Haemophilia: X-linked (Carrier female transmits to son)} \\\\ \\text{Sickle Cell: Glu } \\to \\text{ Val at 6th pos of } \\beta \\text{-chain}"
+  },
+  {
+    "id": "bio_evo_mech",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Industrial Melanism",
+    "description": "Natural Selection evidence. England (1850s): White moths > Dark moths (Lichens on trees). England (1920s): Dark moths > White moths (Smoke/Soot killed lichens).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' fill='#E5E7EB'/><circle cx='40' cy='50' r='10' fill='#fff' stroke='#000'/><circle cx='70' cy='50' r='10' fill='#000'/><text x='50' y='85' text-anchor='middle' font-size='8'>Pre-Industrial</text><rect x='110' y='10' width='80' height='80' fill='#4B5563'/><circle cx='140' cy='50' r='10' fill='#fff' stroke='#000'/><circle cx='170' cy='50' r='10' fill='#000'/><text x='150' y='85' text-anchor='middle' font-size='8' fill='#fff'>Post-Industrial</text></svg>"
+  },
+  {
+    "id": "bio_health_immune_cell",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "B-Cells vs T-Cells",
+    "description": "B-Lymphocytes: Produce Antibodies (Humoral Immunity). T-Lymphocytes: Help B-cells and kill infected cells directly (Cell Mediated Immunity - CMI).",
+    "visual_type": "latex",
+    "visual_data": "\\text{CMI} \\to \\text{Graft Rejection (Organ Transplant)} \\\\ \\text{Humoral} \\to \\text{Blood/Fluid response}"
+  },
+  {
+    "id": "bio_micro_antibiotic",
+    "subject": "Biology",
+    "topic": "Microbes in Human Welfare",
+    "title": "Antibiotics",
+    "description": "Chemical substances produced by microbes to kill others. Penicillin (First antibiotic - Alexander Fleming from Penicillium notatum). Chain & Florey established potential.",
+    "visual_type": "text",
+    "visual_data": "Source: Bacteria (Streptomyces), Fungi (Penicillium)\nAction: Disupt cell wall synthesis (Bactericidal)"
+  },
+  {
+    "id": "bio_eco_biomes",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Major Biomes",
+    "description": "Tropical Rainforest (High temp, High rain). Desert (High temp, Low rain). Tundra (Low temp). Deciduous Forest (Shed leaves).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='130' x2='180' y2='130' stroke='#000'/><line x1='20' y1='10' x2='20' y2='130' stroke='#000'/><text x='100' y='145' font-size='10'>Precipitation</text><text x='5' y='70' font-size='10' transform='rotate(-90 5,70)'>Temperature</text><rect x='140' y='20' width='40' height='40' fill='#059669'/><text x='160' y='40' font-size='8' fill='#fff' text-anchor='middle'>Rainforest</text><rect x='30' y='20' width='40' height='40' fill='#FDE047'/><text x='50' y='40' font-size='8' text-anchor='middle'>Desert</text><rect x='30' y='90' width='40' height='30' fill='#93C5FD'/><text x='50' y='110' font-size='8' text-anchor='middle'>Tundra</text></svg>"
+  },
+  {
+    "id": "bio_plant_anat_sec_root",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Secondary Growth in Root",
+    "description": "Vascular cambium originates from tissue below phloem and Protoxylem. Forms a wavy ring which later becomes circular.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Dicots only (No sec growth in Monocots)} \\\\ \\text{Cambium} \\to \\text{Sec Xylem (In) + Sec Phloem (Out)}"
+  },
+  {
+    "id": "bio_biotech_elisa",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "ELISA",
+    "description": "Enzyme Linked Immuno-Sorbent Assay. Diagnostic test for AIDS/STDs. Based on Antigen-Antibody interaction.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Substrate} \\xrightarrow{\\text{Enzyme-Linked Ab}} \\text{Color Change (Positive)}"
+  },
+  {
+    "id": "bio_anim_mollusca",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Mollusca Features",
+    "description": "Soft bodied, Calcareous shell. Body: Head, Muscular Foot, Visceral Hump. Mantle cavity (respiration/excretion). Radula (Rasping organ for feeding).",
+    "visual_type": "text",
+    "visual_data": "Examples: Pila (Apple Snail), Octopus (Devil fish)\n2nd Largest Phylum (after Arthropoda)"
+  },
+  {
+    "id": "bio_cell_cytoskeleton",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Cytoskeleton",
+    "description": "Network of filamentous proteinaceous structures. Microtubules (Tubulin), Microfilaments (Actin). Functions: Support, Motility, Shape maintenance.",
+    "visual_type": "text",
+    "visual_data": "Microtubules: Spindle fibers, Cilia, Flagella\nMicrofilaments: Muscle contraction, Pseudopodia"
+  },
+  {
+    "id": "bio_div_vert_pisces",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Class Pisces (Fishes)",
+    "description": "Chondrichthyes (Cartilaginous - Shark/Scoliodon, Placoid scales, No Air bladder). Osteichthyes (Bony - Rohu/Labeo, Cycloid scales, Air bladder present).",
+    "visual_type": "text",
+    "visual_data": "Chondrichthyes: Mouth ventral, Gill slits separate (no operculum)\nOsteichthyes: Mouth terminal, 4 pairs gills (with operculum)"
+  },
+  {
+    "id": "bio_div_vert_amphibia",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Class Amphibia",
+    "description": "Dual life (Land + Water). 3-chambered heart (2 Auricles, 1 Ventricle). Respiration: Skin (Cutaneous), Lungs (Pulmonary), Gills (Larva).",
+    "visual_type": "text",
+    "visual_data": "Example: Rana (Frog), Bufo (Toad), Salamandra\nTympanum represents ear. Cloaca present."
+  },
+  {
+    "id": "bio_div_vert_reptilia",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Class Reptilia",
+    "description": "Creeping/Crawling mode. Dry cornified skin (Scales/Scutes). 3-chambered heart (4 in Crocodile). Cold-blooded (Poikilotherms).",
+    "visual_type": "text",
+    "visual_data": "Example: Chelone (Turtle), Naja (Cobra), Hemidactylus (Lizard)\nSnake/Lizard shed skin as cast."
+  },
+  {
+    "id": "bio_div_vert_aves",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Class Aves (Birds)",
+    "description": "Feathers, Beak, Forelimbs modified to Wings. Pneumatic bones (Hollow). 4-chambered heart. Warm-blooded (Homeotherms). Double respiration (Air sacs).",
+    "visual_type": "text",
+    "visual_data": "Example: Corvus (Crow), Pavo (Peacock)\nDigestive tract has Crop and Gizzard."
+  },
+  {
+    "id": "bio_div_vert_mammal",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Class Mammalia",
+    "description": "Mammary glands (Milk). Hair on skin. External ear (Pinna). 4-chambered heart. Diaphragm. Mostly viviparous (Platypus is oviparous).",
+    "visual_type": "text",
+    "visual_data": "Example: Macropus (Kangaroo), Balaenoptera (Blue Whale), Panthera"
+  },
+  {
+    "id": "bio_plant_mineral_def",
+    "subject": "Biology",
+    "topic": "Mineral Nutrition",
+    "title": "Deficiency Symptoms",
+    "description": "Chlorosis (Yellowing - N, K, Mg, S, Fe, Mn, Zn, Mo). Necrosis (Tissue death - Ca, Mg, Cu, K). Inhibition of Division (N, K, S, Mo).",
+    "visual_type": "text",
+    "visual_data": "Mobile elements (N, K, Mg): Symptoms in Old Leaves\nImmobile elements (Ca, S): Symptoms in Young Leaves"
+  },
+  {
+    "id": "bio_plant_transpiration_pull",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Cohesion-Tension Theory",
+    "description": "Dixon & Joly. Water rises in tall trees due to Transpiration Pull. Cohesion (Water-Water), Adhesion (Water-Xylem), Surface Tension.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Transpiration} \\to \\text{Negative Pressure (Suction)} \\to \\text{Water Ascent}"
+  },
+  {
+    "id": "bio_exc_raas",
+    "subject": "Biology",
+    "topic": "Excretory Products",
+    "title": "RAAS Mechanism",
+    "description": "Renin-Angiotensin-Aldosterone System. Regulation of GFR. Low BP -> JG Cells release Renin -> Angiotensinogen to Angiotensin II -> Aldosterone (Adrenal Cortex).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Angiotensin II} \\to \\text{Vasoconstriction} + \\text{Aldosterone} \\\\ \\text{Aldosterone} \\to \\text{Na}^+ \\text{/Water Reabsorption}"
+  },
+  {
+    "id": "bio_musc_disorders",
+    "subject": "Biology",
+    "topic": "Locomotion",
+    "title": "Muscular Disorders",
+    "description": "Myasthenia Gravis (Autoimmune - affects NMJ). Muscular Dystrophy (Genetic - degeneration). Tetany (Low Ca++ - spasms). Gout (Uric acid crystals in joints).",
+    "visual_type": "text",
+    "visual_data": "Osteoporosis: Age-related, Decreased bone mass (Low Estrogen)\nArthritis: Inflammation of joints"
+  },
+  {
+    "id": "bio_biom_lipids",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Lipid Structure",
+    "description": "Fatty Acids (R-COOH) + Glycerol (Tri-hydroxy propane). Triglyceride = 1 Glycerol + 3 Fatty Acids (Ester bond). Saturated (No double bond), Unsaturated (Double bond).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='20' height='60' fill='#BFDBFE'/><text x='30' y='55' text-anchor='middle' font-size='8' transform='rotate(-90 30,55)'>Glycerol</text><rect x='50' y='25' width='100' height='10' fill='#FCA5A5'/><rect x='50' y='45' width='100' height='10' fill='#FCA5A5'/><rect x='50' y='65' width='100' height='10' fill='#FCA5A5'/><text x='100' y='33' text-anchor='middle' font-size='8'>Fatty Acid</text><text x='100' y='53' text-anchor='middle' font-size='8'>Fatty Acid</text><text x='100' y='73' text-anchor='middle' font-size='8'>Fatty Acid</text><line x1='40' y1='30' x2='50' y2='30' stroke='#000'/><line x1='40' y1='50' x2='50' y2='50' stroke='#000'/><line x1='40' y1='70' x2='50' y2='70' stroke='#000'/></svg>"
+  },
+  {
+    "id": "bio_biom_protein_struct",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Protein Structure Levels",
+    "description": "Primary (Sequence of AA). Secondary (Helix/Sheet - H-bonds). Tertiary (3D folding - Disulfide/Ionic bonds - Active form). Quaternary (Multiple polypeptides - Hb).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Primary: N-term to C-term} \\\\ \\text{Secondary: } \\alpha \\text{-Helix (Keratin), } \\beta \\text{-Sheet (Silk)}"
+  },
+  {
+    "id": "bio_strat_breeding",
+    "subject": "Biology",
+    "topic": "Strategies for Enhancement",
+    "title": "Animal Breeding",
+    "description": "Inbreeding (Same breed - increases homozygosity/pure line, but inbreeding depression). Outcrossing (Same breed, no common ancestor). Cross-breeding (Different breeds - Hisardale sheep).",
+    "visual_type": "text",
+    "visual_data": "MOET: Multiple Ovulation Embryo Transfer\nCow -> FSH -> 6-8 eggs -> AI -> Embryo recovery -> Surrogate"
+  },
+  {
+    "id": "bio_strat_plant_breeding",
+    "subject": "Biology",
+    "topic": "Strategies for Enhancement",
+    "title": "Green Revolution Varieties",
+    "description": "Wheat: Sonalika, Kalyan Sona (Norman Borlaug). Rice: Jaya, Ratna (IR-8). Sugarcane: Saccharum barberi (North) x S. officinarum (South).",
+    "visual_type": "text",
+    "visual_data": "Biofortification: Breeding for higher nutrient content\nExample: Atlas 66 (Wheat - High Protein), Iron-fortified Rice"
+  },
+  {
+    "id": "bio_gen_colorblind",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Color Blindness",
+    "description": "Sex-linked recessive disorder. Defect in Red/Green cones. More common in males (8%) than females (0.4%) because males have only one X chromosome.",
+    "visual_type": "latex",
+    "visual_data": "X^C Y \\to \\text{Affected Male} \\\\ X^C X \\to \\text{Carrier Female (Normal Vision)}"
+  },
+  {
+    "id": "bio_gen_thalassemia",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Thalassemia",
+    "description": "Autosomal recessive. Quantitative problem (Reduced synthesis of Globin chains). Alpha Thalassemia (Chr 16). Beta Thalassemia (Chr 11).",
+    "visual_type": "text",
+    "visual_data": "Alpha: Genes HBA1, HBA2\nBeta: Gene HBB\nResult: Anemia"
+  },
+  {
+    "id": "bio_div_fungi",
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "title": "Kingdom Fungi Groups",
+    "description": "Phycomycetes (Algal - Rhizopus). Ascomycetes (Sac - Yeast, Penicillium). Basidiomycetes (Club - Mushroom/Agaricus, Puccinia). Deuteromycetes (Imperfect - Trichoderma).",
+    "visual_type": "text",
+    "visual_data": "Sexual spores:\nAscospores (Endogenous)\nBasidiospores (Exogenous)\nDeuteromycetes: No sexual stage known"
+  },
+  {
+    "id": "bio_morph_stem",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Stem Modifications",
+    "description": "Storage (Potato/Tuber, Ginger/Rhizome, Colocasia/Corm). Support (Tendrils - Cucumber). Protection (Thorns - Citrus). Photosynthesis (Phylloclade - Opuntia).",
+    "visual_type": "text",
+    "visual_data": "Offset: Aquatic (Pistia, Eichhornia)\nSucker: Chrysanthemum, Banana\nRunner: Grasses"
+  },
+  {
+    "id": "bio_eco_adapt",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Adaptations",
+    "description": "Kangaroo Rat (Internal fat oxidation for water). Opuntia (Spines, Sunken stomata, CAM pathway). Mammals in cold (Allen's Rule - short ears/limbs).",
+    "visual_type": "text",
+    "visual_data": "Altitude Sickness: Low pO2 -> High RBCs, High breathing rate\nBehavioral: Desert Lizard basks in sun"
+  },
+  {
+    "id": "bio_cell_prokaryote",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Prokaryotic Envelope",
+    "description": "3 Layers: Glycocalyx (Slime layer/Capsule), Cell Wall (Peptidoglycan), Plasma Membrane (Mesosomes - respiration).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='130' height='80' rx='20' fill='#F3F4F6' stroke='#000'/><rect x='15' y='15' width='120' height='70' rx='15' fill='#E5E7EB' stroke='#000'/><rect x='20' y='20' width='110' height='60' rx='10' fill='#D1FAE5' stroke='#000'/><text x='75' y='50' text-anchor='middle' font-size='8'>Cytoplasm (No Organelles)</text><text x='75' y='95' text-anchor='middle' font-size='6'>Outer: Glycocalyx, Middle: Wall, Inner: Membrane</text></svg>"
+  },
+  {
+    "id": "bio_repro_male_sys",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "title": "Male Reproductive System",
+    "description": "Testis (Scrotum - low temp). Seminiferous Tubules (Sperm production). Epididymis (Storage). Vas Deferens. Glands: Seminal Vesicle (Fructose), Prostate, Bulbourethral.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Semen} = \\text{Sperm} + \\text{Seminal Plasma (Ca}^{++}\\text{, Fructose, Enzymes)}"
+  },
+  {
+    "id": "bio_div_protozoa",
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "title": "Protozoan Groups",
+    "description": "Amoeboid (Pseudopodia - Entamoeba). Flagellated (Trypanosoma - Sleeping sickness). Ciliated (Paramoecium - Gullet). Sporozoans (Plasmodium - Malaria).",
+    "visual_type": "text",
+    "visual_data": "Heterotrophs (Predators or Parasites)\nPrimitive relatives of animals"
+  },
+  {
+    "id": "bio_plant_photo_pigments",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "title": "Photosynthetic Pigments",
+    "description": "Chlorophyll a (Bright green - Primary pigment). Chlorophyll b (Yellow green). Xanthophylls (Yellow). Carotenoids (Yellow-Orange).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><path d='M10,90 Q50,10 90,90' fill='none' stroke='#10B981' stroke-width='2'/><text x='50' y='20' font-size='8' fill='#10B981'>Chl a (Blue/Red absorption)</text><path d='M110,90 Q150,30 190,90' fill='none' stroke='#F59E0B' stroke-width='2'/><text x='150' y='40' font-size='8' fill='#F59E0B'>Carotenoids</text><text x='100' y='95' text-anchor='middle' font-size='8'>Absorption Spectrum</text></svg>"
+  },
+  {
+    "id": "bio_evo_origin",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Theories of Origin of Life",
+    "description": "Panspermia (Spores from space). Spontaneous Generation (Disproved by Louis Pasteur). Chemical Evolution (Oparin & Haldane - Life from non-living organic molecules).",
+    "visual_type": "text",
+    "visual_data": "Pasteur's Swan Neck Flask Experiment:\nLife comes only from pre-existing life (Biogenesis)"
+  },
+  {
+    "id": "bio_health_immunity_barriers",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Innate Immunity Barriers",
+    "description": "Physical (Skin, Mucus). Physiological (Acid in stomach, Tears). Cellular (PMNL-Neutrophils, Monocytes, Macrophages). Cytokine (Interferons - anti-viral).",
+    "visual_type": "text",
+    "visual_data": "PMNL: Polymorpho-Nuclear Leukocytes\nFirst line of defense (Non-specific)"
+  },
+  {
+    "id": "bio_plant_guttation",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Guttation",
+    "description": "Loss of water as liquid droplets from leaf margins (Hydathodes). Caused by Root Pressure (positive pressure) usually at night/early morning.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Root Pressure} > \\text{Transpiration} \\to \\text{Guttation}"
+  },
+  {
+    "id": "bio_biotech_vectors",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Cloning Vectors",
+    "description": "Vehicles to transfer DNA. Plasmids (Bacteria). Bacteriophage (High copy number). BAC/YAC (For large DNA - HGP). Agrobacterium (Ti plasmid - Plants). Retrovirus (Animals).",
+    "visual_type": "text",
+    "visual_data": "Agrobacterium tumifaciens:\nNatural Genetic Engineer of plants"
+  },
+  {
+    "id": "bio_micro_biocontrol",
+    "subject": "Biology",
+    "topic": "Microbes in Human Welfare",
+    "title": "Biocontrol Agents",
+    "description": "Ladybird (controls Aphids). Dragonfly (controls Mosquitoes). Bacillus thuringiensis (Caterpillars). Trichoderma (Root pathogens). Baculovirus/Nucleopolyhedrovirus (Specific to insects).",
+    "visual_type": "text",
+    "visual_data": "IPM: Integrated Pest Management\nAvoid chemical pesticides"
+  },
+  {
+    "id": "bio_cell_golgi",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "title": "Golgi Apparatus",
+    "description": "Camillo Golgi. Cis face (forming) and Trans face (maturing). Functions: Packaging, Modification (Glycosylation - Glycoproteins/Glycolipids).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><path d='M40,20 Q75,10 110,20' fill='none' stroke='#F59E0B' stroke-width='4'/><path d='M40,40 Q75,30 110,40' fill='none' stroke='#F59E0B' stroke-width='4'/><path d='M40,60 Q75,50 110,60' fill='none' stroke='#F59E0B' stroke-width='4'/><circle cx='120' cy='60' r='5' fill='#F59E0B'/><text x='130' y='60' font-size='6'>Vesicle</text><text x='20' y='40' font-size='8'>Cisternae</text></svg>"
+  },
+  {
+    "id": "bio_eco_foodweb",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Food Web vs Chain",
+    "description": "Food Chain: Linear (Grass -> Goat -> Man). Food Web: Interconnected chains (More stable). GFC (Grazing Food Chain). DFC (Detritus Food Chain).",
+    "visual_type": "latex",
+    "visual_data": "\\text{DFC (Decomposers)} \\to \\text{Major flow in terrestrial ecosystem} \\\\ \\text{GFC} \\to \\text{Major flow in aquatic ecosystem}"
+  },
+  {
+    "id": "bio_plant_vernalization",
+    "subject": "Biology",
+    "topic": "Plant Growth",
+    "title": "Vernalization",
+    "description": "Flowering dependent on exposure to low temperature. Prevents precocious reproductive development. Winter varieties (Wheat/Barley) planted in autumn.",
+    "visual_type": "text",
+    "visual_data": "Promotes flowering in Biennials:\nCabbage, Sugarbeet, Carrot"
+  },
+  {
+    "id": "bio_morph_solanaceae",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Family Solanaceae (Potato)",
+    "description": "Vegetables (Potato, Tomato, Brinjal), Spice (Chilli), Medicine (Belladonna, Ashwagandha), Fumigatory (Tobacco).",
+    "visual_type": "latex",
+    "visual_data": "\\oplus \\, K_{(5)} \\, \\overbrace{C_{(5)} \\, A_5} \\, \\underline{G}_{(2)} \\\\ \\text{Epipetalous stamens, Axile placentation}"
+  },
+  {
+    "id": "bio_morph_fabaceae",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Family Fabaceae (Pea/Bean)",
+    "description": "Pulses (Gram, Arhar), Edible oil (Soybean, Groundnut), Dye (Indigofera), Fibres (Sunhemp), Fodder (Sesbania).",
+    "visual_type": "latex",
+    "visual_data": "\\% \\, K_{(5)} \\, C_{1+2+(2)} \\, A_{(9)+1} \\, \\underline{G}_1 \\\\ \\text{Diadelphous, Vexillary aestivation}"
+  },
+  {
+    "id": "bio_morph_liliaceae",
+    "subject": "Biology",
+    "topic": "Morphology",
+    "title": "Family Liliaceae (Lily)",
+    "description": "Ornamentals (Tulip, Gloriosa), Medicine (Aloe), Vegetables (Asparagus), Colchicine (Colchicum autumnale).",
+    "visual_type": "latex",
+    "visual_data": "\\oplus \\, \\overbrace{P_{(3+3)} \\, A_{3+3}} \\, \\underline{G}_{(3)} \\\\ \\text{Epiphyllous stamens, Tricarpellary}"
+  },
+  {
+    "id": "bio_micro_products",
+    "subject": "Biology",
+    "topic": "Microbes in Human Welfare",
+    "title": "Bioactive Molecules",
+    "description": "Cyclosporin A (Immunosuppressant - Trichoderma polysporum). Statins (Cholesterol lowering - Monascus purpureus). Streptokinase (Clot buster - Streptococcus).",
+    "visual_type": "text",
+    "visual_data": "Lipase: Detergents (remove oil stains)\nPectinase/Protease: Clear bottled juices\nSwiss Cheese: Large holes (CO2) by Propionibacterium"
+  },
+  {
+    "id": "bio_env_eutro",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Eutrophication",
+    "description": "Natural aging of lake by nutrient enrichment (N, P). Cultural Eutrophication (accelerated by humans). Causes Algal Bloom -> O2 depletion -> Fish death.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Nutrients} \\to \\text{Algae} \\uparrow \\to \\text{DO} \\downarrow \\to \\text{BOD} \\uparrow \\to \\text{Death}"
+  },
+  {
+    "id": "bio_plant_anat_leaf",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Dorsiventral vs Isobilateral Leaf",
+    "description": "Dicot (Dorsiventral): Stomata mostly on lower surface, Mesophyll differentiated (Palisade + Spongy). Monocot (Isobilateral): Stomata on both surfaces, Mesophyll undifferentiated.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='60' height='60' fill='#A7F3D0' stroke='#000'/><rect x='20' y='20' width='60' height='20' fill='#059669'/><text x='50' y='50' text-anchor='middle' font-size='6'>Dicot (Diff)</text><rect x='120' y='20' width='60' height='60' fill='#A7F3D0' stroke='#000'/><text x='150' y='50' text-anchor='middle' font-size='6'>Monocot (Same)</text><circle cx='130' cy='20' r='2' fill='#fff'/><circle cx='130' cy='80' r='2' fill='#fff'/><text x='150' y='90' font-size='6'>Stomata</text></svg>"
+  },
+  {
+    "id": "bio_plant_bulliform",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Bulliform Cells",
+    "description": "Large, empty, colorless cells in epidermis of Grasses (Monocots). When turgid -> Leaf open. When flaccid (water stress) -> Leaf curls to reduce water loss.",
+    "visual_type": "text",
+    "visual_data": "Adaptation to minimize Transpiration"
+  },
+  {
+    "id": "bio_health_fungal",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Ringworm (Fungal)",
+    "description": "Caused by Microsporum, Trichophyton, Epidermophyton. Symptoms: Dry, scaly lesions, itching. Thrives in heat and moisture (skin folds).",
+    "visual_type": "text",
+    "visual_data": "Infectious: Transmitted via towels, clothes, combs"
+  },
+  {
+    "id": "bio_health_ascaris",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Ascariasis",
+    "description": "Intestinal parasite (Ascaris lumbricoides). Eggs in faeces -> Soil -> Water/Vegetables. Internal bleeding, muscular pain, blockage of intestinal passage.",
+    "visual_type": "text",
+    "visual_data": "Prevention: Hygiene, Washing vegetables\nVector-less transmission (Direct)"
+  },
+  {
+    "id": "bio_health_filariasis",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Elephantiasis (Filariasis)",
+    "description": "Wuchereria bancrofti / W. malayi. Chronic inflammation of lymphatic vessels (lower limbs). Transmitted by Culex mosquito.",
+    "visual_type": "text",
+    "visual_data": "Vector: Culex (Female)\nSymptom: Gross deformities of genital organs"
+  },
+  {
+    "id": "bio_strat_scp",
+    "subject": "Biology",
+    "topic": "Strategies for Enhancement",
+    "title": "Single Cell Protein (SCP)",
+    "description": "Alternative protein source for humans/animals. Spirulina (Blue-green algae), Methylophilus methylotrophus (Bacteria - high rate of biomass production).",
+    "visual_type": "latex",
+    "visual_data": "250g \\text{ Bacteria} \\to 25 \\text{ tonnes protein/day}"
+  },
+  {
+    "id": "bio_strat_biofort",
+    "subject": "Biology",
+    "topic": "Strategies for Enhancement",
+    "title": "Biofortification Examples",
+    "description": "Breeding crops with higher vitamins/minerals. Vitamin A enriched Carrots/Spinach. Vitamin C enriched Bitter gourd. Iron enriched Rice.",
+    "visual_type": "text",
+    "visual_data": "Goal: Reduce 'Hidden Hunger' (Micronutrient deficiency)"
+  },
+  {
+    "id": "bio_eco_commensalism",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Commensalism (+/0)",
+    "description": "One benefits, other unaffected. 1. Orchid on Mango branch. 2. Barnacles on Whale. 3. Cattle Egret and grazing cattle. 4. Sea Anemone and Clown Fish.",
+    "visual_type": "text",
+    "visual_data": "Egret: Eats insects flushed out by cattle\nClown Fish: Protection from predators by stinging tentacles"
+  },
+  {
+    "id": "bio_anim_arthropoda",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Arthropoda",
+    "description": "Largest Phylum (2/3rd of all species). Jointed appendages. Chitinous exoskeleton. Molting (Ecdysis). Open circulatory system. Malpighian tubules.",
+    "visual_type": "text",
+    "visual_data": "Economical: Apis (Honey), Bombyx (Silk), Laccifer (Lac)\nVectors: Anopheles, Culex, Aedes\nLiving Fossil: Limulus (King Crab)"
+  },
+  {
+    "id": "bio_anim_echino",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Echinodermata",
+    "description": "Spiny bodied. Endoskeleton of calcareous ossicles. Marine only. Water Vascular System (Locomotion, Respiration, Food capture).",
+    "visual_type": "text",
+    "visual_data": "Symmetry: Radial (Adult), Bilateral (Larva)\nEx: Asterias (Star fish), Echinus (Sea urchin)"
+  },
+  {
+    "id": "bio_anim_hemi",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Hemichordata",
+    "description": "Worm-like marine animals. Stomochord (rudimentary structure). Body: Proboscis, Collar, Trunk. Respiration by gills.",
+    "visual_type": "text",
+    "visual_data": "Ex: Balanoglossus, Saccoglossus\nConnecting link between Non-chordates and Chordates"
+  },
+  {
+    "id": "bio_plant_imbibition",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Imbibition",
+    "description": "Absorption of water by solids (colloids) causing increase in volume. Seed germination requires imbibition. Heat is released (Heat of Wetting).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Affinity between Adsorbent and Liquid is essential}"
+  },
+  {
+    "id": "bio_plant_plasmolysis",
+    "subject": "Biology",
+    "topic": "Transport in Plants",
+    "title": "Plasmolysis",
+    "description": "Shrinkage of protoplast from cell wall when placed in Hypertonic solution (Exosmosis). Incipient -> Evident Plasmolysis. Deplasmolysis in Hypotonic.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='130' height='80' fill='none' stroke='#000' stroke-width='2'/><path d='M20,20 Q40,40 20,80 Q60,90 120,80 Q130,40 120,20 Q60,10 20,20' fill='#FECACA' stroke='#EF4444'/><text x='75' y='50' text-anchor='middle' font-size='8'>Shrunken Protoplast</text><text x='75' y='95' text-anchor='middle' font-size='8'>Hypertonic Solution</text></svg>"
+  },
+  {
+    "id": "bio_env_waste",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Solid Waste Management",
+    "description": "Sanitary Landfills (leachate problem). Incineration (Hospital waste). Recycling (Plastics - Ahmed Khan's Polyblend for roads). E-waste (Gold recovery - Toxic).",
+    "visual_type": "text",
+    "visual_data": "Polyblend + Bitumen = Water repellent roads (Bangalore)"
+  },
+  {
+    "id": "bio_env_chipko",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Deforestation Case Studies",
+    "description": "Chipko Movement (1974, Garhwal Himalayas - Sunderlal Bahuguna). Amrita Devi Bishnoi (1731, Rajasthan - sacrificed life for Khejri trees).",
+    "visual_type": "text",
+    "visual_data": "JFM: Joint Forest Management (1980s) - Local communities protect forests"
+  },
+  {
+    "id": "bio_div_situ",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "title": "In-situ Conservation",
+    "description": "On-site. Hotspots (Western Ghats), Biosphere Reserves (14 in India), National Parks (90), Sanctuaries (448), Sacred Groves (Khasi Hills, Aravalli).",
+    "visual_type": "text",
+    "visual_data": "Sacred Groves: Last refuge for large number of rare plants"
+  },
+  {
+    "id": "bio_repro_mtp",
+    "subject": "Biology",
+    "topic": "Reproductive Health",
+    "title": "MTP (Medical Termination of Pregnancy)",
+    "description": "Legalized in India 1971. Safe up to 1st Trimester (12 weeks). Used for contraceptive failure, rape, or health risk.",
+    "visual_type": "text",
+    "visual_data": "Amniocentesis: Sex determination (Banned)"
+  },
+  {
+    "id": "bio_biotech_pcr_app",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Applications of PCR",
+    "description": "Early diagnosis of pathogens (Detects low concentration). HIV in suspected AIDS. Genetic mutations in Cancer. DNA Fingerprinting.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Amplification} \\to \\text{Detection}"
+  },
+  {
+    "id": "bio_biotech_animals",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "title": "Transgenic Animals",
+    "description": "Rosie (First Transgenic Cow - Human alpha-lactalbumin enriched milk, 2.4g/L). Mice (Polio vaccine safety). Sheep (Tracey - alpha-1-antitrypsin for Emphysema).",
+    "visual_type": "text",
+    "visual_data": "95% of Transgenic animals are Mice"
+  },
+  {
+    "id": "bio_cell_meiosis_sig",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Significance of Meiosis",
+    "description": "1. Conservation of chromosome number across generations (2n -> n). 2. Genetic variability (Crossing over). 3. Evolution.",
+    "visual_type": "latex",
+    "visual_data": "\\text{Variation} \\to \\text{Raw material for Evolution}"
+  },
+  {
+    "id": "bio_plant_growth_absolute",
+    "subject": "Biology",
+    "topic": "Plant Growth",
+    "title": "Absolute vs Relative Growth",
+    "description": "Absolute: Total growth per unit time. Relative: Growth per unit initial parameter. (Leaf A 5->10cm vs Leaf B 50->55cm. Absolute same, Relative A > B).",
+    "visual_type": "latex",
+    "visual_data": "RGR = \\frac{\\text{Growth}}{\\text{Time} \\times \\text{Initial Size}}"
+  },
+  {
+    "id": "bio_eco_pyramid_energy",
+    "subject": "Biology",
+    "topic": "Ecosystem",
+    "title": "Pyramid of Energy",
+    "description": "Always Upright. Energy flow is unidirectional. 10% Law (Lindeman): Only 10% energy transferred to next trophic level.",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><polygon points='100,20 180,140 20,140' fill='#FDE68A' stroke='#D97706'/><line x1='35' y1='110' x2='165' y2='110' stroke='#D97706'/><line x1='50' y1='80' x2='150' y2='80' stroke='#D97706'/><text x='100' y='130' text-anchor='middle' font-size='8'>Producers (1000J)</text><text x='100' y='100' text-anchor='middle' font-size='8'>Pri. Cons (100J)</text><text x='100' y='70' text-anchor='middle' font-size='8'>Sec. Cons (10J)</text><text x='100' y='40' text-anchor='middle' font-size='8'>Top (1J)</text></svg>"
+  },
+  {
+    "id": "bio_mol_dna_rna",
+    "subject": "Biology",
+    "topic": "Molecular Basis",
+    "title": "DNA vs RNA Stability",
+    "description": "DNA (Deoxyribose) lacks 2'-OH -> More stable, chemically less reactive. RNA (Ribose) has 2'-OH -> Labile, catalytic (Ribozyme).",
+    "visual_type": "text",
+    "visual_data": "DNA: Genetic material (Storage)\nRNA: Transmission of information / Catalysis"
+  },
+  {
+    "id": "bio_evo_homo_analog",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Divergent vs Convergent",
+    "description": "Homologous (Divergent): Same origin (Vertebrate heart/brain). Analogous (Convergent): Different origin (Potato/Sweet Potato, Flippers of Penguin/Dolphin).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Homologous} \\to \\text{Ancestry} \\\\ \\text{Analogous} \\to \\text{Habitat}"
+  },
+  {
+    "id": "bio_env_montreal",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Protocols",
+    "description": "Montreal Protocol (1987, Canada): Control ODS (Ozone Depleting Substances - CFCs). Kyoto Protocol (1997, Japan): Control Greenhouse Gases (Climate Change).",
+    "visual_type": "text",
+    "visual_data": "Montreal: Ozone protection\nKyoto: Global Warming"
+  },
+  {
+    "id": "bio_hist_scientists",
+    "subject": "Biology",
+    "topic": "History of Biology",
+    "title": "Famous Scientists & Discoveries",
+    "description": "Schleiden & Schwann (Cell Theory). Rudolf Virchow (Omnis cellula-e cellula). Singer & Nicolson (Fluid Mosaic). Watson & Crick (DNA Double Helix).",
+    "visual_type": "text",
+    "visual_data": "Mendel: Father of Genetics\nMorgan: Linkage (Fruit fly)\nSutton & Boveri: Chromosomal Theory\nDarwin: Natural Selection"
+  },
+  {
+    "id": "bio_anim_porifera",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Porifera (Sponges)",
+    "description": "Primitive, multicellular, cellular level of organization. Water Canal System (Ostia -> Spongocoel -> Osculum). Choanocytes (Collar cells).",
+    "visual_type": "text",
+    "visual_data": "Skeleton: Spicules/Spongin fibers\nExamples: Sycon, Spongilla (Freshwater), Euspongia (Bath sponge)"
+  },
+  {
+    "id": "bio_anim_ctenophora",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Ctenophora (Sea Walnuts)",
+    "description": "Marine, Radial symmetry, Diploblastic. 8 external rows of ciliated Comb Plates (Locomotion). Bioluminescence (emit light).",
+    "visual_type": "text",
+    "visual_data": "Example: Pleurobrachia, Ctenoplana\nProperty: Bioluminescence"
+  },
+  {
+    "id": "bio_anim_platy",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Platyhelminthes (Flatworms)",
+    "description": "Dorso-ventrally flattened. Acoelomate. Bilateral symmetry. Flame cells (Osmoregulation/Excretion). Hooks and Suckers in parasites.",
+    "visual_type": "text",
+    "visual_data": "Example: Taenia (Tapeworm), Fasciola (Liver fluke)\nRegeneration: Planaria (High capacity)"
+  },
+  {
+    "id": "bio_anim_annelida",
+    "subject": "Biology",
+    "topic": "Animal Kingdom",
+    "title": "Phylum Annelida (Ringed Worms)",
+    "description": "Metamerism (Segmentation). Coelomate. Nephridia (Excretion). Longitudinal and Circular muscles (Locomotion). Closed circulatory system.",
+    "visual_type": "text",
+    "visual_data": "Example: Pheretima (Earthworm), Nereis (Parapodia), Hirudinaria (Leech)"
+  },
+  {
+    "id": "bio_anim_frog",
+    "subject": "Biology",
+    "topic": "Structural Org. in Animals",
+    "title": "Frog Anatomy (Rana tigrina)",
+    "description": "Cloaca (Common opening for digestive, excretory, reproductive). 3-chambered heart. Respiration: Skin (Cutaneous), Lungs (Pulmonary), Buccal cavity.",
+    "visual_type": "text",
+    "visual_data": "Excretion: Ureotelic (Urea)\nCopulatory pad: On first digit of forelimb (Male)"
+  },
+  {
+    "id": "bio_anim_cockroach_eye",
+    "subject": "Biology",
+    "topic": "Structural Org. in Animals",
+    "title": "Cockroach Vision (Mosaic)",
+    "description": "Compound eyes with 2000 Ommatidia. Mosaic vision: High sensitivity but Low resolution (Nocturnal vision).",
+    "visual_type": "text",
+    "visual_data": "Spiracles: 10 pairs for respiration\nMalpighian tubules: Excretion"
+  },
+  {
+    "id": "bio_plant_tissues_simple",
+    "subject": "Biology",
+    "topic": "Anatomy of Plants",
+    "title": "Simple Permanent Tissues",
+    "description": "Parenchyma (Storage, Photosynthesis - Living). Collenchyma (Mechanical support in young stems - Living, thickened corners). Sclerenchyma (Dead, lignified - Fibres/Sclereids).",
+    "visual_type": "text",
+    "visual_data": "Collenchyma: Thickened with Cellulose/Pectin\nSclerenchyma: Thickened with Lignin (Nuts, Pulp of Guava)"
+  },
+  {
+    "id": "bio_cell_div_meiosis2",
+    "subject": "Biology",
+    "topic": "Cell Cycle",
+    "title": "Meiosis II (Equational)",
+    "description": "Resembles Mitosis. Prophase II -> Metaphase II (Chromosomes align) -> Anaphase II (Centromere splits) -> Telophase II (4 Haploid cells).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 200 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' fill='none' stroke='#000'/><line x1='50' y1='20' x2='50' y2='80' stroke='#EF4444' stroke-width='2'/><text x='50' y='95' text-anchor='middle' font-size='8'>Metaphase II</text><path d='M120,50 L140,50' stroke='#000' marker-end='url(#arrow)'/><circle cx='180' cy='30' r='15' fill='none' stroke='#000'/><circle cx='180' cy='70' r='15' fill='none' stroke='#000'/><text x='180' y='95' text-anchor='middle' font-size='8'>4 Daughter Cells</text></svg>"
+  },
+  {
+    "id": "bio_eco_pop_attr",
+    "subject": "Biology",
+    "topic": "Organisms & Populations",
+    "title": "Population Attributes",
+    "description": "Birth Rate (Natality). Death Rate (Mortality). Sex Ratio (Males per 1000 Females). Age Distribution (Pre-reproductive, Reproductive, Post-reproductive).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Growth} = (\\text{Birth} + \\text{Immigration}) - (\\text{Death} + \\text{Emigration})"
+  },
+  {
+    "id": "bio_biom_cofactor",
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "title": "Enzyme Co-factors",
+    "description": "Non-protein part essential for activity. Prosthetic Group (Tightly bound - Haem in Peroxidase). Co-enzyme (Transient - NAD/NADP). Metal Ions (Zn in Carboxypeptidase).",
+    "visual_type": "text",
+    "visual_data": "Apoenzyme (Protein) + Co-factor = Holoenzyme (Active)"
+  },
+  {
+    "id": "bio_evo_geo_time",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "title": "Geological Time Scale",
+    "description": "Paleozoic (Invertebrates/Fish). Mesozoic (Reptiles/Dinosaurs). Cenozoic (Mammals/Humans).",
+    "visual_type": "text",
+    "visual_data": "Jurassic: Age of Dinosaurs\nDevonian: Age of Fishes\nCarboniferous: Coal formation"
+  },
+  {
+    "id": "bio_health_drugs_list",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "title": "Drugs & Sources Summary",
+    "description": "Morphine (Latex of Poppy). Cannabinoids (Inflorescence of Cannabis). Cocaine (Erythroxylum coca). LSD (Fungus Claviceps).",
+    "visual_type": "text",
+    "visual_data": "Tobacco: Nicotine (Stimulates Adrenal gland)\nAlcohol: Depressant, affects Cerebellum"
+  },
+  {
+    "id": "bio_env_ozone_hole",
+    "subject": "Biology",
+    "topic": "Environmental Issues",
+    "title": "Ozone Hole Mechanism",
+    "description": "Antarctic Region. UV breaks CFCs -> Cl atoms -> Cl converts Ozone to Oxygen. Cl acts as catalyst (not consumed). Thinning of shield.",
+    "visual_type": "latex",
+    "visual_data": "Cl + O_3 \\to ClO + O_2 \\\\ ClO + O \\to Cl + O_2"
+  },
+  {
+    "id": "bio_gen_pedigree_autosomal",
+    "subject": "Biology",
+    "topic": "Principles of Inheritance",
+    "title": "Pedigree: Autosomal vs Sex-Linked",
+    "description": "Autosomal Dominant: Does not skip generations (Myotonic Dystrophy). Autosomal Recessive: Skips generations (Sickle Cell). Sex-Linked: Criss-cross inheritance (Haemophilia).",
+    "visual_type": "svg",
+    "visual_data": "<svg viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='10' width='20' height='20' fill='#EF4444'/><circle cx='100' cy='20' r='10' fill='none' stroke='#000'/><line x1='70' y1='20' x2='90' y2='20' stroke='#000'/><line x1='80' y1='20' x2='80' y2='50' stroke='#000'/><rect x='60' y='60' width='20' height='20' fill='#EF4444'/><circle cx='100' cy='70' r='10' fill='#EF4444'/><text x='75' y='95' text-anchor='middle' font-size='8'>Dominant (No Skip)</text></svg>"
+  },
+  {
+    "id": "bio_div_hierarchy",
+    "subject": "Biology",
+    "topic": "The Living World",
+    "title": "Taxonomic Hierarchy",
+    "description": "Arrangement of categories. Species (Basic unit) -> Genus -> Family -> Order -> Class -> Phylum/Division -> Kingdom.",
+    "visual_type": "text",
+    "visual_data": "Mnemonic: 'Keep Pot Clean Or Family Gets Sick'\nPotato: Solanum tuberosum\nHuman: Homo sapiens (Order: Primata, Class: Mammalia)"
+  },
+  {
+    "id": "bio_div_nomenclature",
+    "subject": "Biology",
+    "topic": "The Living World",
+    "title": "Binomial Nomenclature",
+    "description": "Carolus Linnaeus. Two components: Generic name (Capitalized) + Specific epithet (Lower case). Latinized and written in Italics (or underlined).",
+    "visual_type": "text",
+    "visual_data": "Example: Mangifera indica (Mango)\nAuthor citation: Mangifera indica Linn."
+  },
+  {
+    "id": "bio_div_aids",
+    "subject": "Biology",
+    "topic": "The Living World",
+    "title": "Taxonomic Aids",
+    "description": "Herbarium (Dried plant sheets). Botanical Gardens (Living plants - Kew, NBRI). Museum (Preserved specimens). Zoological Parks (Wild animals).",
+    "visual_type": "text",
+    "visual_data": "Key: Analytical device (Couplet of contrasting characters)\nFlora: Index of plants in a given area"
+  },
+  {
+    "id": "bio_div_living",
+    "subject": "Biology",
+    "topic": "The Living World",
+    "title": "Defining Properties of Life",
+    "description": "Metabolism (Sum of all chemical reactions) and Consciousness (Response to stimuli) are defining properties. Growth and Reproduction are NOT defining (exceptions exist).",
+    "visual_type": "latex",
+    "visual_data": "\\text{Mule/Worker Bee} \\to \\text{Sterile (No Reproduction)} \\\\ \\text{Sand Dune} \\to \\text{Grows (Accumulation)}"
+  },
+  {
+    "id": "bio_cell_endo_system",
+    "subject": "Biology",
+    "topic": "Cell Unit of Life",
+    "title": "Endomembrane System",
+    "description": "Functionally coordinated organelles. ER (Synthesis) -> Golgi (Packaging) -> Lysosome (Digestion) -> Vacuole (Storage).",
+    "visual_type": "latex",
+    "visual_data": "\\text{GERL System} \\\\ \\text{Mitochondria/Chloroplast NOT included (Independent)}"
+  }
+]

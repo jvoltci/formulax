@@ -1,0 +1,32 @@
+name: formula
+description: The viral formula revision app for IIT/JEE aspirants.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.0.5
+  flutter_animate: ^4.2.0
+  flutter_math_fork: ^0.7.2
+  share_plus: ^7.0.0
+  shared_preferences: ^2.2.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10
+  http: ^1.2.0            # For API calls
+  path_provider: ^2.1.2   # To find local storage path
+  archive: ^3.4.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
