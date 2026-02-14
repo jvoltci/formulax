@@ -1,4 +1,4 @@
-package com.blueshift.formula
+package com.blueshift.formulax
 
 import io.flutter.embedding.android.FlutterActivity
 
